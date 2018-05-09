@@ -1,13 +1,17 @@
-#include "mySQL.h"
+#include "SQL.h"
+#include "File.h"
+#include "IO.h"
+#include<cstring>
+#include<iostream>
 int main()
 {
 	char temp[SIZE];
-	cout << "musql==>";
-    cin.getline(temp,SIZE);
+    std::cout << "mysql==>";
+    std::cin.getline(temp,SIZE);
 	while (strcmp(temp,"quit")!=0){
 		SQL sql(temp);
-		cout << "mysql==>";
-		cin.getline(temp,SIZE);
+        std::cout << "mysql==>";
+        std::cin.getline(temp,SIZE);
 	}
 	return 0;
 }

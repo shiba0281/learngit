@@ -1,10 +1,18 @@
-#include "mySQL.h"
+#include "File.h"
+#include<iostream>
+#include<cstring>
+const int SIZE = 100;
+using namespace std; 
 File::File(char *filename, char *model){
 	fp = fopen(filename, model);
 	if (fp == NULL){
+        cout<<"============"<<endl;
 		printf("´ò¿ª%sÊ§°Ü£¡\n", filename);
-		exit(-1);
+        cout<<"============"<<endl;
+//		exit(-1);
+        flag=false;
 	}
+    flag=true;
 }
 File::~File(){ fclose(fp); }
 void File::input_tablelist(vector<string*>&tablelist){
@@ -31,7 +39,7 @@ void File::print_tablelist(){
 	fgets(columns, SIZE, fp);
 	int position = ftell(fp);
 	if (position == 0){ 
-		cout << "this table is empty!" << endl;
+		cout << "this table is empty!"<< endl;
 		return; 
 	}
 	cout << '(' << get_column_num() << ',' << get_line_num()-1 << ") "
@@ -74,7 +82,7 @@ int File::get_line_num(){
 void File::output_tablelist(vector<string*>&tablelist){
 	reset();
 	char temp[SIZE] = { '\0' };
-	for (int i = 0; i < tablelist.size(); i++){
+	for (int i = 0; i < (int)tablelist.size(); i++){
 		strcpy(temp, tablelist[i][0].c_str());
 		fprintf(fp, "%s\t", temp); 
 		strcpy(temp, tablelist[i][1].c_str());
@@ -111,7 +119,7 @@ void File::input_table(vector<string*>&table)
 }
 void File::output_table(vector<string*>&table){
 	reset();
-	for (int i = 0; i < table.size(); i++){
+	for (int i = 0; i < (int)table.size(); i++){
 		for (int j = 0; table[i][j] != " "; j++){
 			fprintf(fp, "%s\t", table[i][j].c_str());
 		}

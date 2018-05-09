@@ -1,10 +1,19 @@
-#include "mySQL.h"
+#include "SQL.h"
+#include "IO.h"
+#include "File.h"
+#include<iostream>
+using namespace std;
 SQL::SQL(char *input){
+    flag=true;
 	this->input = input;
-
 	io = new IO(input);
-	f = new File("mysql.txt", "r");
+	f = new File((char*)"mysql.txt", (char*)"r");
+    if(f->result()){
 	f->input_tablelist(tablelist);
+    }
+    else{
+        flag=false;
+    }
 //	print_tablelist();
 	delete f;
 	order = io->get_order();
@@ -12,20 +21,30 @@ SQL::SQL(char *input){
 	filename = io->get_filename();
 	objectname = io->get_objectname();
 	if (filename.compare("") == 0 && tablename.compare("") != 0){
-		for (int i = 0; i < tablelist.size(); i++){
+		int i=0;
+        for (; i < (int)tablelist.size(); i++){
 			if (tablelist[i][0] == tablename){
 				filename = tablelist[i][1];
 				break;
 			}
 		}
+        if((int)tablelist.size()==i){
+            flag=false;
+            cout<<"========================="<<endl
+                <<"请确定输入了正确的TABLE名"<<endl
+                <<"-------------------------"<<endl;
+        }
 	}
 	if (filename.compare("") != 0&&order!=0){
-		f = new File((char*)filename.c_str(), "r");
-		f->input_table(table);
+		f = new File((char*)filename.c_str(), (char*)"r");
+		if(f->result()){
+            f->input_table(table);
+        }
+        else{
+            flag=false;
+        }
 		delete f;
 	}
-	volumns = io->get_volumns();
-	values = io->get_values();
 	position = io->get_position();
 	if (io->get_sc().compare("")!=0){
 		if (io->get_sc().compare("ASC")==0){
@@ -36,24 +55,26 @@ SQL::SQL(char *input){
 		}
 	}
 	delete io;
+    if(flag){
 	Order();
+    }
 }
 void SQL::print_tablelist(){
 	cout << " total=" << tablelist.size() << endl;
-	for (int i = 0; i < tablelist.size(); i++){
+	for (int i = 0; i < (int)tablelist.size(); i++){
 		cout << '\t' << tablelist[i][0] << ": ";
-		f = new File((char*)tablelist[i][1].c_str(), "r");
+		f = new File((char*)tablelist[i][1].c_str(), (char*)"r");
 		f->print_tablelist();
 		delete f;
 	}
 }
 void SQL::save_tablelist(){
-	f = new File("mysql.txt", "w");
+	f = new File((char*)"mysql.txt",(char*) "w");
 	f->output_tablelist(tablelist);
 	delete f;
 }
 void SQL::save_table(){
-	f = new File((char*)filename.c_str(), "w");
+	f = new File((char*)filename.c_str(),(char*) "w");
 	f->output_table(table);
 	delete f;
 }
@@ -204,7 +225,7 @@ void SQL::Update(){
 	for (int i = 0; sc[i] != " "; i++){
 		for (int j = 0; table[0][j] != " "; j++){
 			if (table[0][j] == sc[i]){
-				for (int k = 1; k < table.size(); k++){
+				for (int k = 1; k < (int)table.size(); k++){
 					table[k][j] = sv[i];
 				}
 			}
@@ -230,7 +251,7 @@ void SQL::Select_p(){
 	}
 	//	输出编号的特征数组里的列
 	cout << "ID" << '\t';
-	for (int i = 0; i < table.size(); i++){
+	for (int i = 0; i < (int)table.size(); i++){
 		if (i > 0){ cout << i << '\t'; }
 		for (int j = 0; j < cnt; j++){
 			cout << table[i][flag[j]] << '\t';
@@ -249,7 +270,7 @@ void SQL::Update_p(){
 	}
 	//	j为目标所在的行数
 	int j = 0;
-	for (; j < table.size(); j++){
+	for (; j < (int)table.size(); j++){
 		if (table[j][i] == s[1]){ break; }
 	}
 	//	修改这一行的值
@@ -281,7 +302,7 @@ void SQL::Select_d(){
 	}
 	int amount = 0;
 	//	遍历所有行，找出需要没有重复内容的行标记
-	for (int i = 0; i < table.size(); i++){
+	for (int i = 0; i < (int)table.size(); i++){
 		//	预设这一行特征行的内容在之前出现过
 		bool flag = false;
 		//	遍历前面的所有行
@@ -321,8 +342,8 @@ void SQL::Select_o(){
 	}
 	arrary[cnt] = -1;
 //	sort(table.begin()+1, table.end(), cmp);
-	for (int i = 1; i < table.size(); i++){
-		for (int j = 1; j < table.size() - i; j++){
+	for (int i = 1; i < (int)table.size(); i++){
+		for (int j = 1; j < (int)table.size() - i; j++){
 			bool flag = cmp(table[j], table[j + 1]);
 			if (!asc_or_desc){
 				flag = !flag;
@@ -360,7 +381,7 @@ void SQL::Select_t(){
 		if (s[j] == " "){
 			//	把后面的每一列向左移
 			for (int k = i + 1;k<SIZE; k++){
-				for (int l = 0; l < table.size(); l++){
+				for (int l = 0; l < (int)table.size(); l++){
 					table[l][k - 1] = table[l][k];
 				}
 			}
@@ -368,7 +389,7 @@ void SQL::Select_t(){
 		}
 	}
 	print_table();
-	f = new File((char*)objectname.c_str(), "w");
+	f = new File((char*)objectname.c_str(), (char*)"w");
 	f->output_table(table);
 	delete f;
 }
@@ -397,7 +418,7 @@ void SQL::Select_pp(){
 	//	寻找指定行
 	int flag[SIZE] = { 0 };
 	int amount = 1;
-	for (int i = 0; i < table.size(); i++){
+	for (int i = 0; i < (int)table.size(); i++){
 		if (table[i][a] == s[1]){
 			flag[amount++] = i;
 		}
@@ -463,24 +484,28 @@ void SQL::Order(){
 		Select();
 		break;
 	default:
-		cout << "输入有误！" << endl;
+		cout<<"=========="<<endl;
+        cout << "输入有误！" << endl;
+        cout<<"----------"<<endl;
 	}
 	if (order >= 4&&order<=9){ print_table(); }
 }
 void SQL::print_table(){
-	cout << "ID" << '\t';
-	for (int i = 0; i < table.size(); i++){
+	cout<<"|  "<<"ID"<<'\t';
+	for (int i = 0; i < (int)table.size(); i++){
 		if (i > 0){ cout << i << '\t'; }
 		for (int j = 0; table[i][j] != " "; j++){
-			if (table[i][j] == "#"){
+			cout<<"|  ";
+            if (table[i][j] == "#"){
 				cout << " ";
 			}
 			else{
 				cout << table[i][j];
 			}
-			cout << '\t';
+			cout << "  ";
 		}
-		cout << endl;
+    
+		cout<<'|'<<endl;
 	}
 }
 string* SQL::str_to(string str){
@@ -498,6 +523,7 @@ string* SQL::str_to(string str){
 	}
 	return s;
 }
+bool SQL::result(){return flag;}
 
 //SQL::~SQL(){
 //	if (tablelist.begin() == tablelist.end()){ return; }

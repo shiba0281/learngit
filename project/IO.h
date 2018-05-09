@@ -1,6 +1,7 @@
 #ifndef IO_h
 #define IO_h
 #include<string>
+//const int SIZE = 100;
 class IO{
 private:
 //	static string transaction[SIZE];

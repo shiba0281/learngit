@@ -1,4 +1,8 @@
-#include "mySQL.h"
+#include "IO.h"
+#include<iostream>
+#include<cstring>
+const int SIZE = 100;
+using namespace std;
 //string IO::transaction[SIZE];
 IO::IO(char *input){
 	this->input = input;

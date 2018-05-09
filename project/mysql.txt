@@ -1,0 +1,3 @@
+lecture	lecture.txt
+student	student.txt
+Student	Student.txt

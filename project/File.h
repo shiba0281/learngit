@@ -6,6 +6,7 @@
 class File{
  private:
      FILE *fp;
+    bool flag; 
  public:
      File(char *filename, char *model);
      ~File();
@@ -17,6 +18,7 @@ class File{
       void output_table(std::vector<std::string*>&table);
       void input_transaction();
       void reset();
+      bool result(){return flag;}
       int get_line_num();
       int get_column_num();
   };
