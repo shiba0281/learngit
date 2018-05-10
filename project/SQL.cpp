@@ -2,6 +2,7 @@
 #include "IO.h"
 #include "File.h"
 #include<iostream>
+#include<iomanip>
 using namespace std;
 SQL::SQL(char *input){
     flag=true;
@@ -9,13 +10,15 @@ SQL::SQL(char *input){
 	io = new IO(input);
 	f = new File((char*)"mysql.txt", (char*)"r");
     if(f->result()){
-	f->input_tablelist(tablelist);
+    	f->input_tablelist(tablelist);
     }
     else{
         flag=false;
     }
 //	print_tablelist();
 	delete f;
+    values=io->get_values();
+    volumns=io->get_volumns();
 	order = io->get_order();
 	tablename = io->get_tablename();
 	filename = io->get_filename();
@@ -31,19 +34,23 @@ SQL::SQL(char *input){
         if((int)tablelist.size()==i){
             flag=false;
             cout<<"========================="<<endl
-                <<"ÇëÈ·¶¨ÊäÈëÁËÕıÈ·µÄTABLEÃû"<<endl
+                <<"è¯·ç¡®å®šè¾“å…¥äº†æ­£ç¡®çš„TABLEå"<<endl
                 <<"-------------------------"<<endl;
         }
 	}
 	if (filename.compare("") != 0&&order!=0){
 		f = new File((char*)filename.c_str(), (char*)"r");
-		if(f->result()){
+        if(f->result()){
             f->input_table(table);
         }
         else{
             flag=false;
+            cout<<"========================="<<endl
+                <<"è¯·ç¡®å®šè¾“å…¥äº†æ­£ç¡®çš„TABLEå"<<endl
+                <<"========================="<<endl;
         }
-		delete f;
+        //  delete f ä¼šå‡ºé”™?
+//        delete f;
 	}
 	position = io->get_position();
 	if (io->get_sc().compare("")!=0){
@@ -53,10 +60,16 @@ SQL::SQL(char *input){
 		else{
 			asc_or_desc = false;
 		}
-	}
+    }
+    if(io->result()==false){
+        flag=false;
+        cout<<"======================================="<<endl
+            <<"è¾“å…¥æ ¼å¼ä¸è§„èŒƒ!è¯·è¾“å…¥READMEå‚è€ƒè§„èŒƒè¾“å…¥"<<endl
+            <<"======================================="<<endl;
+    }
 	delete io;
     if(flag){
-	Order();
+        Order();
     }
 }
 void SQL::print_tablelist(){
@@ -114,7 +127,7 @@ void SQL::Drop(){
 	}
 	else{
 		cout << "==========" << endl
-			 << "Î´ÕÒµ½Ä¿±ê£¡" << endl
+			 << "æœªæ‰¾åˆ°ç›®æ ‡ï¼" << endl
 			 << "----------" << endl;
 	}
 }
@@ -130,7 +143,7 @@ void SQL::Insert(){
 	}
 	else{
 		cout << "===============" << endl
-			 << "ÊäÈëÓëÊôĞÔ²»Ò»ÖÂ£¡" << endl
+			 << "è¾“å…¥ä¸å±æ€§ä¸ä¸€è‡´ï¼" << endl
 			 << "---------------" << endl;
 	}
 }
@@ -142,10 +155,10 @@ void SQL::Insert_p(){
 	for (int i = 0; i < SIZE; i++){
 		s[i] = " ";
 	}
-	//	Í³¼ÆÁĞÊı²¢ÇÒ³õÊ¼»¯value
+	//	ç»Ÿè®¡åˆ—æ•°å¹¶ä¸”åˆå§‹åŒ–value
 	for (int i = 0; table[0][i] != " "; i++){
 		bool flag = false;
-	//	³õÊ¼»¯value
+	//	åˆå§‹åŒ–value
 		for (int j = 0; name[j] != " "; j++){
 			if (name[j].compare(table[0][i]) == 0){
 				s[i] = temp[j];
@@ -157,7 +170,7 @@ void SQL::Insert_p(){
 			s[i] = "#";
 		}
 	}
-	//	ÁĞÖĞÕÒ²»µ½µÄÇé¿ö
+	//	åˆ—ä¸­æ‰¾ä¸åˆ°çš„æƒ…å†µ
 	bool flag = false;
 	for (int i = 0; s[i] != " "; i++){
 		if (s[i] != "#"){
@@ -171,7 +184,7 @@ void SQL::Insert_p(){
 	}
 	else{
 		cout << "===========" << endl
-			 << "Î´ÕÒµ½Ö¸¶¨ÁĞ" << endl
+			 << "æœªæ‰¾åˆ°æŒ‡å®šåˆ—" << endl
 			 << "-----------" << endl;
 		delete[] s;
 		return;
@@ -191,15 +204,15 @@ void SQL::Delete_p(){
 	vector<string*>::iterator it = table.begin();
 	bool flag = false;
 	if (it == table.end()){ return; }
-	//	Ñ°ÕÒvolumn¶ÔÓ¦µÄÁĞ£¬ÔÙ½øĞĞ×İÏò±éÀú
+	//	å¯»æ‰¾volumnå¯¹åº”çš„åˆ—ï¼Œå†è¿›è¡Œçºµå‘éå†
 	int i = 0;
-	//	ºáÏò±éÀú
+	//	æ¨ªå‘éå†
 	for (; table[0][i] != " "; i++){
 		if (table[0][i].compare(volumns) == 0){
 			break;
 		}
 	}
-	//	×İÏò±éÀú
+	//	çºµå‘éå†
 	for (; it != table.end(); it++){
 		if ((*it)[i] == values){
 			flag = true;
@@ -213,12 +226,12 @@ void SQL::Delete_p(){
 	}
 	else{
 		cout << "====================" << endl
-			 << "Î´ÕÒµ½Ä¿±ê£¬É¾³ıÊ§°Ü£¡" << endl
+			 << "æœªæ‰¾åˆ°ç›®æ ‡ï¼Œåˆ é™¤å¤±è´¥ï¼" << endl
 			 << "--------------------" << endl;
 	}
 }
 void SQL::Update(){
-	//	»ñÈ¡columns
+	//	è·å–columns
 //	cout << volumns << '\t' << values << endl;
 	string *sc = str_to(volumns);
 	string *sv = str_to(values);
@@ -238,7 +251,7 @@ void SQL::Select(){
 }
 void SQL::Select_p(){
 	string *s = str_to(volumns);
-	//	È·¶¨ĞèÒªÊä³öµÄÁĞµÄ±àºÅ
+	//	ç¡®å®šéœ€è¦è¾“å‡ºçš„åˆ—çš„ç¼–å·
 	int flag[SIZE] = { 0 };
 	int cnt = 0;
 	for (int i = 0; table[0][i] != " "; i++){
@@ -249,7 +262,7 @@ void SQL::Select_p(){
 			}
 		}
 	}
-	//	Êä³ö±àºÅµÄÌØÕ÷Êı×éÀïµÄÁĞ
+	//	è¾“å‡ºç¼–å·çš„ç‰¹å¾æ•°ç»„é‡Œçš„åˆ—
 	cout << "ID" << '\t';
 	for (int i = 0; i < (int)table.size(); i++){
 		if (i > 0){ cout << i << '\t'; }
@@ -263,17 +276,17 @@ void SQL::Update_p(){
 	string s[2];
 	s[0] = position.substr(0, position.find_first_of('=') - 1);
 	s[1] = position.substr(position.find_first_of('=') + 2);
-	//	Ñ°ÕÒĞèÒªĞŞ¸ÄµÄÄ¿±ê	
+	//	å¯»æ‰¾éœ€è¦ä¿®æ”¹çš„ç›®æ ‡	
 	int i = 0;
 	for (; table[0][i] != " "; i++){
 		if (table[0][i] == s[0]){ break; }
 	}
-	//	jÎªÄ¿±êËùÔÚµÄĞĞÊı
+	//	jä¸ºç›®æ ‡æ‰€åœ¨çš„è¡Œæ•°
 	int j = 0;
 	for (; j < (int)table.size(); j++){
 		if (table[j][i] == s[1]){ break; }
 	}
-	//	ĞŞ¸ÄÕâÒ»ĞĞµÄÖµ
+	//	ä¿®æ”¹è¿™ä¸€è¡Œçš„å€¼
 	string *sc = str_to(volumns);
 	string *sv = str_to(values);
 	for (int i = 0; sc[i] != " "; i++){
@@ -287,11 +300,11 @@ void SQL::Update_p(){
 }
 void SQL::Select_d(){
 	string *s = str_to(volumns);
-	//	È·¶¨ĞèÒªÊä³öµÄÁĞÊı
+	//	ç¡®å®šéœ€è¦è¾“å‡ºçš„åˆ—æ•°
 	int b[SIZE] = { 0 };
-	//	È·¶¨ĞèÒªÊä³öµÄĞĞ
+	//	ç¡®å®šéœ€è¦è¾“å‡ºçš„è¡Œ
 	int a[SIZE] = { 0 };
-	//	±éÀú±íÍ·£¬ÕÒ³öËùÓĞÑ¡ÔñµÄÁĞµÄ±àºÅ
+	//	éå†è¡¨å¤´ï¼Œæ‰¾å‡ºæ‰€æœ‰é€‰æ‹©çš„åˆ—çš„ç¼–å·
 	int cnt = 0;
 	for (int i = 0; table[0][i] != " "; i++){
 		for (int j = 0; s[j] != " "; j++){
@@ -301,11 +314,11 @@ void SQL::Select_d(){
 		}
 	}
 	int amount = 0;
-	//	±éÀúËùÓĞĞĞ£¬ÕÒ³öĞèÒªÃ»ÓĞÖØ¸´ÄÚÈİµÄĞĞ±ê¼Ç
+	//	éå†æ‰€æœ‰è¡Œï¼Œæ‰¾å‡ºéœ€è¦æ²¡æœ‰é‡å¤å†…å®¹çš„è¡Œæ ‡è®°
 	for (int i = 0; i < (int)table.size(); i++){
-		//	Ô¤ÉèÕâÒ»ĞĞÌØÕ÷ĞĞµÄÄÚÈİÔÚÖ®Ç°³öÏÖ¹ı
+		//	é¢„è®¾è¿™ä¸€è¡Œç‰¹å¾è¡Œçš„å†…å®¹åœ¨ä¹‹å‰å‡ºç°è¿‡
 		bool flag = false;
-		//	±éÀúÇ°ÃæµÄËùÓĞĞĞ
+		//	éå†å‰é¢çš„æ‰€æœ‰è¡Œ
 		if (i > 1){
 			for (int j = i - 1; j > 0; j--){
 				flag = true;
@@ -374,12 +387,12 @@ void SQL::Select_t(){
 	string *s = str_to(volumns);
 	for (int i = 0; table[0][i] != " "; i++){
 		int j = 0;
-		//	Èç¹ûÕâÒ»ÁĞÃ»ÓĞÔÚÊäÈëĞòÁĞÖĞ³öÏÖ¹ıÔòs[j]=" "
+		//	å¦‚æœè¿™ä¸€åˆ—æ²¡æœ‰åœ¨è¾“å…¥åºåˆ—ä¸­å‡ºç°è¿‡åˆ™s[j]=" "
 		for (; s[j] != " "; j++){
 			if (table[0][i] == s[j]){ break; }
 		}
 		if (s[j] == " "){
-			//	°ÑºóÃæµÄÃ¿Ò»ÁĞÏò×óÒÆ
+			//	æŠŠåé¢çš„æ¯ä¸€åˆ—å‘å·¦ç§»
 			for (int k = i + 1;k<SIZE; k++){
 				for (int l = 0; l < (int)table.size(); l++){
 					table[l][k - 1] = table[l][k];
@@ -398,10 +411,30 @@ void SQL::Select_pp(){
 	cout << tablename << endl;
 	cout << position << endl;*/
 	string s[2];
-	s[0] = position.substr(0, position.find_first_of('=') - 1);
-	s[1] = position.substr(position.find_first_of('=') + 2);
+    //  å¯»æ‰¾å…³é”®å­—
+    string key;
+    if(position.find('=')!=string::npos){
+        key="=";
+    }
+    else if(position.find('>')!=string::npos){
+        key=">";
+    }
+    else if(position.find('<')!=string::npos){
+        key="<";
+    }
+    else if(position.find("!=")!=string::npos){
+        key="!=";
+    }
+    else if(position.find("<=")!=string::npos){
+        key="<=";
+    }
+    else if(position.find(">=")!=string::npos){
+        key=">=";
+    }
+	s[0] = position.substr(0, position.find_first_of(key) - 1);
+	s[1] = position.substr(position.find_first_of(key) + key.size()+1);
 	string *sc = str_to(volumns);
-	//	´æ´¢±ê¼ÇÁĞ
+	//	å­˜å‚¨æ ‡è®°åˆ—
 	int cnt = 0;
 	int a = 0;
 	for (int i = 0; table[0][i] != " "; i++){
@@ -415,15 +448,65 @@ void SQL::Select_pp(){
 			a = i;
 		}
 	}
-	//	Ñ°ÕÒÖ¸¶¨ĞĞ
+	//	å¯»æ‰¾æŒ‡å®šè¡Œ
 	int flag[SIZE] = { 0 };
 	int amount = 1;
-	for (int i = 0; i < (int)table.size(); i++){
+/*	for (int i = 0; i < (int)table.size(); i++){
 		if (table[i][a] == s[1]){
 			flag[amount++] = i;
 		}
 	}
-	//	flagĞĞÎªÄ¿±êĞĞµÄÊı×é
+*/  
+    if(key=="="){
+        for(int i=0;i<(int)table.size();i++){
+            if(table[i][a]==s[1]){
+                flag[amount++]=i;
+            }
+        }      
+    }
+    else if(key=="!="){
+        for(int i=0;i<(int)table.size();i++){
+            if(table[i][a]!=s[1]){
+                flag[amount++]=i;
+            }
+        }
+    }
+    else{
+        int standard=stoi(s[1]);
+        if(key==">"){
+            for(int i=1;i<(int)table.size();i++){
+                int tmp=stoi(table[i][a]);
+                if(tmp>standard){
+                    flag[amount++]=i;
+                }
+            }
+        }
+        else if(key=="<"){
+            for(int i=1;i<(int)table.size();i++){
+                int tmp=stoi(table[i][a]);
+                if(tmp<standard){
+                    flag[amount++]=i;
+                }
+            }
+        }
+        else if(key==">="){
+           for(int i=1;i<(int)table.size();i++){
+                int tmp=stoi(table[i][a]);
+                if(tmp>=standard){
+                    flag[amount++]=i;
+                }
+            }
+         }
+        else if(key=="<="){
+           for(int i=1;i<(int)table.size();i++){
+                int tmp=stoi(table[i][a]);
+                if(tmp<=standard){
+                    flag[amount++]=i;
+                }
+            }
+        }
+    }
+	//	flagè¡Œä¸ºç›®æ ‡è¡Œçš„æ•°ç»„
 	cout << "ID\t";
 	for (int i = 0; i < amount; i++){
 		if (flag[i] > 0){ cout << i << '\t'; }
@@ -485,28 +568,39 @@ void SQL::Order(){
 		break;
 	default:
 		cout<<"=========="<<endl;
-        cout << "ÊäÈëÓĞÎó£¡" << endl;
+        cout<< "è¾“å…¥æœ‰è¯¯!" << endl;
         cout<<"----------"<<endl;
 	}
-	if (order >= 4&&order<=9){ print_table(); }
+	if (order >= 4&&order<=9&&flag){ print_table(); }
 }
 void SQL::print_table(){
-	cout<<"|  "<<"ID"<<'\t';
+    int len=0;
+    while(table[0][len++]!=" ");
+    len=4+(len-1)*11;
+    for(int i=0;i<len;i++){cout<<"-";}
+    cout<<endl;
+	cout<<'|'<<setw(3)<<"ID"<<'|';
 	for (int i = 0; i < (int)table.size(); i++){
-		if (i > 0){ cout << i << '\t'; }
+		if (i > 0){ 
+            for(int i=0;i<len;i++){cout<<'-';}
+            cout<<endl;
+            cout<<'|'<< setw(3)<<i<<'|';
+        }
 		for (int j = 0; table[i][j] != " "; j++){
-			cout<<"|  ";
+//			cout<<"|  ";
             if (table[i][j] == "#"){
-				cout << " ";
+				cout<<setw(10) << " ";
 			}
 			else{
-				cout << table[i][j];
+				cout<<setw(10) << table[i][j];
 			}
-			cout << "  ";
+            cout<<'|';
 		}
-    
-		cout<<'|'<<endl;
+        cout<<endl;   
+//		cout<<'|'<<endl;
 	}
+    for(int i=0;i<len;i++){cout<<'-';}
+    cout<<endl;
 }
 string* SQL::str_to(string str){
 	string *s = new string[SIZE];

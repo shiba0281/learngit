@@ -7,10 +7,13 @@ private:
 //	static string transaction[SIZE];
     std::string input;
 	int order;
+    bool is_correct;
 //	File *f;
 public:
 	IO(char *input);
+    void preprocess();
 	int get_order();
+    bool result(){return is_correct;}
     std::string get_filename();
     std::string get_objectname();
     std::string get_tablename();

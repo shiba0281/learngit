@@ -5,16 +5,18 @@ const int SIZE = 100;
 using namespace std;
 //string IO::transaction[SIZE];
 IO::IO(char *input){
-	this->input = input;
+	is_correct=true;
+    this->input = input;
+    preprocess();
 //	string temp = this->input.substr(0, this->input.find_first_of(" "));
 	/*
 		order list:
-		0:CREATE TABLE tablename (column1,column2,¡­¡­,columnT) TO filename
+		0:CREATE TABLE tablename (column1,column2,â€¦â€¦,columnT) TO filename
 		1:CREATE TABLE tablename FROM file
 		2:TABLE LIST
 		3:DROP TABLE tablename
-		4:INSERT INTO tablename VALUES (¡­¡­£©
-		5:INSERT INTO tablename (columns) VALUES (¡­¡­£©
+		4:INSERT INTO tablename VALUES (â€¦â€¦ï¼‰
+		5:INSERT INTO tablename (columns) VALUES (â€¦â€¦ï¼‰
 		6:DELETE FROM filename WHERE column = value
 		7:DELETE * FROM tablename
 		8.UPDATE name SET columni = valuei, 
@@ -66,7 +68,7 @@ IO::IO(char *input){
 		temp = get_between(0, 1);
 		if (temp.compare("UPDATE") == 0){
 			if (this->input.find("WHERE") != string::npos){
-				order = 8;	//	UPDATE SET WHERE ¡­¡­
+				order = 8;	//	UPDATE SET WHERE â€¦â€¦
 			}
 			else{
 				order = 9;	//	UPDATE SET
@@ -93,11 +95,28 @@ IO::IO(char *input){
 			}
 		}
 		else{
-			order = -1;	//	ÊäÈë´íÎó
+			order = -1;	//	è¾“å…¥é”™è¯¯
 		}
 	}
 	
 }
+void IO::preprocess(){
+    //  æŠŠç©ºç™½åºœå…¨éƒ¨è½¬åŒ–ä¸ºç©ºæ ¼
+    for(auto it=this->input.begin();it!=input.end();it++){
+        if(*it=='\t'){*it=' ';}
+        if(*it==','){*it=',';}
+    }   
+    //  æŠŠè¿žç»­çš„ç©ºæ ¼è½¬åŒ–ä¸ºå•ä¸ªç©ºæ ¼
+    for(auto it=this->input.begin();it!=input.end();it++){
+        if(*it==' '){
+            for(auto tmp=it+1;*tmp==' ';tmp++){
+                tmp=this->input.erase(tmp);
+                tmp--;
+            }
+        }
+    }
+}
+
 string IO::get_filename(){
 	switch (order){
 	case 0:
@@ -113,7 +132,11 @@ string IO::get_filename(){
 string IO::get_objectname(){
 	switch (order){
 	case 13:
-		return this->input.substr(input.find("TO") + 3);
+        if(input.find("TO")==string::npos){
+            is_correct=false;
+            return "";
+        }
+        return this->input.substr(input.find("TO") + 3);
 		break;
 	default:
 		return "";
@@ -132,7 +155,16 @@ string IO::get_tablename(){
 		break;
 	case 10:case 11:case 12:case 13:case 14:case 15:{
 		string str = this->input;
+        if(str.find("FROM")==string::npos){
+            is_correct=false;
+            return "";
+        }
 		str.erase(0, str.find("FROM") + 5);
+/*        if(str.find_first_of(' ')==string::npos){
+            is_correct=false;
+            return "";
+        }
+        */
 		return str.substr(0, str.find_first_of(' '));
 	}
 		break;
@@ -144,10 +176,18 @@ string IO::get_values(){
 	string str;
 	switch (order){
 	case 4:
+        if(input.find_first_of('(')==string::npos||input.find_first_of(')')==string::npos){
+            is_correct=false;
+            return "";
+        }
 		return input.substr(input.find_first_of('(') + 1, input.find_first_of(')') - input.find_first_of('(') - 1);
 		break;
 	case 5:
 		str = input;
+        if(str.find_first_of('(')==string::npos||str.find_first_of(')')==string::npos){
+            is_correct=false;
+            return "";
+        }
 		str.erase(str.find_first_of('('), str.find_first_of(')') - str.find_first_of('(') + 1);
 		return str.substr(str.find_first_of('(') + 1, str.find_first_of(')') - str.find_first_of('(') - 1);
 		break;
@@ -159,6 +199,10 @@ string IO::get_values(){
 		if (str.find("WHERE") != string::npos){
 			str.erase(str.find("WHERE"));
 		}
+        if(str.find('=')==string::npos){
+            is_correct=false;
+            return "";
+        }
 		str.erase(0, str.find_first_of('=') + 2);
 		while (str.find('=') != string::npos){
 			str.erase(str.find_first_of(','), str.find_first_of('=') - str.find_first_of(',') + 1);
@@ -178,6 +222,10 @@ string IO::get_volumns(){
 	string str = input;
 	switch (order){
 	case 0:case 5:
+        if(input.find_first_of('(')==string::npos||input.find_first_of(')')==string::npos){
+            is_correct=false;
+            return "";
+        }
 		return input.substr(input.find_first_of('(') + 1, input.find_first_of(')') - input.find_first_of('(') - 1);
 		break;
 	case 6:
@@ -187,6 +235,10 @@ string IO::get_volumns(){
 		if (str.find("WHERE") != string::npos){
 			str.erase(str.find("WHERE"));
 		}
+        if(str.find("SET")==string::npos){
+            is_correct=false;
+            return "";
+        }
 		str.erase(0, str.find("SET") + 4);
 		while (str.find_first_of('=') != string::npos){
 			str.erase(str.find_first_of('=') - 1, str.find_first_of(',') - str.find_first_of('=') + 2);
@@ -228,6 +280,10 @@ string IO::get_sc(){
 string IO::get_position(){
 	switch (order){
 	case 8:case 12:
+        if(input.find("WHERE")==string::npos){
+            is_correct=false;
+            return "";
+        }
 		return input.substr(input.find("WHERE")+6);
 		break;
 	default:
@@ -238,7 +294,10 @@ string IO::get_position(){
 string IO::get_between(int a, int b){
 	char temp[SIZE] = { '\0' };
 	strcpy(temp, input.c_str());
-	int begin, end;
+	int len=0;
+    while(temp[len++]!='\0');
+    temp[len-1]=' ';
+    int begin=0, end=0;
 	int cnt = 0;
 	bool flag = false;
 	for (int i = 0; temp[i] != '\0'; i++){
@@ -259,6 +318,7 @@ string IO::get_between(int a, int b){
 			break;
 		}
 	}
+    if(end==0){flag=false;return"";}
 	return input.substr(begin, end - begin);
 }
 int IO::get_order(){ return order; }

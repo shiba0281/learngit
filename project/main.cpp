@@ -3,12 +3,16 @@
 #include "IO.h"
 #include<cstring>
 #include<iostream>
+//#include<string>
+//#include<vector>
 int main()
 {
-	char temp[SIZE];
+    std::vector<std::string>orders;
+    char temp[SIZE];
     std::cout << "mysql==>";
     std::cin.getline(temp,SIZE);
 	while (strcmp(temp,"quit")!=0){
+
 		SQL sql(temp);
         std::cout << "mysql==>";
         std::cin.getline(temp,SIZE);

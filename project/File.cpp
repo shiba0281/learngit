@@ -6,13 +6,15 @@ using namespace std;
 File::File(char *filename, char *model){
 	fp = fopen(filename, model);
 	if (fp == NULL){
-        cout<<"============"<<endl;
-		printf("´ò¿ª%sÊ§°Ü£¡\n", filename);
-        cout<<"============"<<endl;
+        cout<<"==============="<<endl;
+		printf("æ‰“å¼€%så¤±è´¥ï¼\n", filename);
+        cout<<"==============="<<endl;
 //		exit(-1);
         flag=false;
 	}
-    flag=true;
+    else{
+        flag=true;
+    }
 }
 File::~File(){ fclose(fp); }
 void File::input_tablelist(vector<string*>&tablelist){

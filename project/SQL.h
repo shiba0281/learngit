@@ -1,3 +1,4 @@
+#define DEBUG
 #ifndef SQL_h
 #define SQL_h
 #include<string>
