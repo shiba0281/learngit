@@ -1,0 +1,12 @@
+2018-05-05 08:14:38  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-05 08:14:38  INFO CreateServiceRunnable:437 - Not in Player List111111110
+2018-05-05 08:14:55  INFO CreateServiceRunnable:399 - Accepted 111111113
+2018-05-05 08:14:55  INFO CreateServiceRunnable:413 - Welcome 111111113,ccc
+2018-05-05 08:49:07  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-05 08:49:07  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-05 08:49:07  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-05 08:49:19  INFO CreateServiceRunnable:399 - Accepted 111111113
+2018-05-05 08:49:19  INFO CreateServiceRunnable:413 - Welcome 111111113,ccc
+2018-05-05 10:04:27  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-05 10:04:27  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-05 10:04:27  INFO CreateServiceRunnable:338 - Start test mode!

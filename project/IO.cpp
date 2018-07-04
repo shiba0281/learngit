@@ -90,10 +90,19 @@ IO::IO(char *input){
 			else if (this->input.find('*') != string::npos){
 				order = 14;	//	SELECT * FROM tablename
 			}
+            else if(this->input.find("MAX")!=string::npos){
+                order = 16; //  SLECT MAX COLUMN FROM TABLE
+            }
+            else if(this->input.find("MIN")!=string::npos){
+                order=17;
+            }
 			else{
 				order = 15;	//	SELECT column1,column2,column3 FROM tablename
 			}
 		}
+        else if(temp.compare("README")==0){
+            order = 18;
+        }
 		else{
 			order = -1;	//	输入错误
 		}
@@ -153,7 +162,7 @@ string IO::get_tablename(){
 	case 8:case 9:
 		return get_between(1, 2);
 		break;
-	case 10:case 11:case 12:case 13:case 14:case 15:{
+    case 10:case 11:case 12:case 13:case 14:case 15:case 16:case 17:{
 		string str = this->input;
         if(str.find("FROM")==string::npos){
             is_correct=false;
@@ -214,7 +223,10 @@ string IO::get_values(){
 		}
 		return str;
 		break;
-	default:
+    case 11:
+        return get_between(1,2);
+        break;
+    default:
 		return "";
 	}
 }
@@ -250,7 +262,7 @@ string IO::get_volumns(){
 		}
 		return str;
 		break;
-	case 10:
+    case 10:case 16:case 17:
 		return get_between(2, 3);
 		break;
 	case 11:

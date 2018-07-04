@@ -1,0 +1,21 @@
+TEST 0
+INFO 111111111 VS RobotTravel
+ROUND_START 1
+COLOR BLACK:P1 WHITE:P0
+VALID_STEP BLACK SP0305
+--------------------------------------------
+| | | | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | | | 
+| | | | | | | | | | |P| | | | | 
+| | | | | | |B| |B| |B| |P| | | 
+| | | | | | |W| |B| |P| | | | | 
+| | | | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | | | 
+--------------------------------------------
+TIMEOUT BLACK 1
+TIMEOUT BLACK 2
+TIMEOUT BLACK 3
+TIMEOUT BLACK 4
+ERROR_MAXTIME BLACK 
+ROUND_END 1

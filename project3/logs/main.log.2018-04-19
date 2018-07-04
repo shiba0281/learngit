@@ -1,0 +1,1155 @@
+2018-04-19 00:01:13  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 00:01:13  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 00:01:13  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 00:01:13  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 00:01:13  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 00:01:13  INFO ServerProperties:46 - see.error=true
+2018-04-19 00:01:13  INFO ServerProperties:46 - ui.height=674
+2018-04-19 00:01:13  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 00:01:13  INFO ServerProperties:46 - filter.out=0
+2018-04-19 00:01:13  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 00:01:13  INFO ServerProperties:46 - round.steps=70
+2018-04-19 00:01:13  INFO ServerProperties:46 - play.interval=0
+2018-04-19 00:01:13  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 00:01:13  INFO ServerProperties:46 - robot.model=0
+2018-04-19 00:01:13  INFO ServerProperties:46 - server.port=10087
+2018-04-19 00:01:13  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 00:01:13  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 00:01:13  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 00:01:13  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 00:01:13  INFO ServerProperties:46 - server.mode=0
+2018-04-19 00:01:13  INFO Main:28 - Startup the main ui
+2018-04-19 00:01:29  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 00:01:29  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 00:01:29  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 00:01:29  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 00:01:29  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 00:01:29  INFO ServerProperties:46 - see.error=true
+2018-04-19 00:01:29  INFO ServerProperties:46 - ui.height=674
+2018-04-19 00:01:29  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 00:01:29  INFO ServerProperties:46 - filter.out=0
+2018-04-19 00:01:29  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 00:01:29  INFO ServerProperties:46 - round.steps=70
+2018-04-19 00:01:29  INFO ServerProperties:46 - play.interval=0
+2018-04-19 00:01:29  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 00:01:29  INFO ServerProperties:46 - robot.model=0
+2018-04-19 00:01:29  INFO ServerProperties:46 - server.port=10087
+2018-04-19 00:01:29  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 00:01:29  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 00:01:29  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 00:01:29  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 00:01:29  INFO ServerProperties:46 - server.mode=0
+2018-04-19 00:01:29  INFO Main:28 - Startup the main ui
+2018-04-19 00:01:33  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 00:01:33  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 00:01:33  INFO Players:81 - 111111110
+2018-04-19 00:01:33  INFO Players:81 - 111111111
+2018-04-19 00:01:33  INFO Players:90 - Total players: 2
+2018-04-19 00:01:33  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 00:01:33  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 00:01:33  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 00:01:33  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 00:01:33  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 00:03:19  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50327
+2018-04-19 00:03:19  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 00:03:31  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50332
+2018-04-19 00:03:31  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 00:03:35 ERROR Players:109 - The winners as follow:
+2018-04-19 00:03:35 ERROR Players:122 - 111111111
+2018-04-19 00:03:35 ERROR Players:140 - Total winners: 1
+2018-04-19 00:03:35 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 00:03:35 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 01:16:17  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 01:16:17  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 01:16:17  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 01:16:17  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 01:16:17  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 01:16:17  INFO ServerProperties:46 - see.error=true
+2018-04-19 01:16:17  INFO ServerProperties:46 - ui.height=674
+2018-04-19 01:16:17  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 01:16:17  INFO ServerProperties:46 - filter.out=0
+2018-04-19 01:16:17  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 01:16:17  INFO ServerProperties:46 - round.steps=70
+2018-04-19 01:16:17  INFO ServerProperties:46 - play.interval=0
+2018-04-19 01:16:17  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 01:16:17  INFO ServerProperties:46 - robot.model=0
+2018-04-19 01:16:17  INFO ServerProperties:46 - server.port=10087
+2018-04-19 01:16:17  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 01:16:17  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 01:16:17  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 01:16:17  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 01:16:17  INFO ServerProperties:46 - server.mode=0
+2018-04-19 01:16:17  INFO Main:28 - Startup the main ui
+2018-04-19 01:16:21  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 01:16:21  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 01:16:21  INFO Players:81 - 111111111
+2018-04-19 01:16:21  INFO Players:90 - Total players: 1
+2018-04-19 01:16:21  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 01:16:21  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 01:16:21  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 01:16:21  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 01:16:21  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:16:25  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50822
+2018-04-19 01:16:25  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:17:02  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50827
+2018-04-19 01:17:02  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:17:08  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 01:17:08  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 01:17:08  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 01:17:08  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 01:17:08  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 01:17:08  INFO ServerProperties:46 - see.error=true
+2018-04-19 01:17:08  INFO ServerProperties:46 - ui.height=674
+2018-04-19 01:17:08  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 01:17:08  INFO ServerProperties:46 - filter.out=0
+2018-04-19 01:17:08  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 01:17:08  INFO ServerProperties:46 - round.steps=70
+2018-04-19 01:17:08  INFO ServerProperties:46 - play.interval=0
+2018-04-19 01:17:08  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 01:17:08  INFO ServerProperties:46 - robot.model=0
+2018-04-19 01:17:08  INFO ServerProperties:46 - server.port=10087
+2018-04-19 01:17:08  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 01:17:08  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 01:17:08  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 01:17:08  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 01:17:08  INFO ServerProperties:46 - server.mode=0
+2018-04-19 01:17:08  INFO Main:28 - Startup the main ui
+2018-04-19 01:17:12  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 01:17:12  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 01:17:12  INFO Players:81 - 111111110
+2018-04-19 01:17:12  INFO Players:81 - 111111111
+2018-04-19 01:17:12  INFO Players:90 - Total players: 2
+2018-04-19 01:17:12  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 01:17:12  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 01:17:12  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 01:17:12  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 01:17:12  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:17:18  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50833
+2018-04-19 01:17:18  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:17:30  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50836
+2018-04-19 01:17:30  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:17:34 ERROR Players:109 - The winners as follow:
+2018-04-19 01:17:34 ERROR Players:122 - 111111110
+2018-04-19 01:17:34 ERROR Players:140 - Total winners: 1
+2018-04-19 01:17:34 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 01:17:34 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 01:19:38  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 01:19:38  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 01:19:38  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 01:19:38  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 01:19:38  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 01:19:38  INFO ServerProperties:46 - see.error=true
+2018-04-19 01:19:38  INFO ServerProperties:46 - ui.height=674
+2018-04-19 01:19:38  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 01:19:38  INFO ServerProperties:46 - filter.out=0
+2018-04-19 01:19:38  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 01:19:38  INFO ServerProperties:46 - round.steps=70
+2018-04-19 01:19:38  INFO ServerProperties:46 - play.interval=0
+2018-04-19 01:19:38  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 01:19:38  INFO ServerProperties:46 - robot.model=0
+2018-04-19 01:19:38  INFO ServerProperties:46 - server.port=10087
+2018-04-19 01:19:38  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 01:19:38  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 01:19:38  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 01:19:38  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 01:19:38  INFO ServerProperties:46 - server.mode=0
+2018-04-19 01:19:38  INFO Main:28 - Startup the main ui
+2018-04-19 01:19:42  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 01:19:42  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 01:19:42  INFO Players:81 - 111111110
+2018-04-19 01:19:42  INFO Players:90 - Total players: 1
+2018-04-19 01:19:42  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 01:19:42  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 01:19:42  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 01:19:42  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 01:19:42  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:19:48  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 01:19:48  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 01:19:48  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 01:19:48  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 01:19:48  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 01:19:48  INFO ServerProperties:46 - see.error=true
+2018-04-19 01:19:48  INFO ServerProperties:46 - ui.height=674
+2018-04-19 01:19:48  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 01:19:48  INFO ServerProperties:46 - filter.out=0
+2018-04-19 01:19:48  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 01:19:48  INFO ServerProperties:46 - round.steps=70
+2018-04-19 01:19:48  INFO ServerProperties:46 - play.interval=0
+2018-04-19 01:19:48  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 01:19:48  INFO ServerProperties:46 - robot.model=0
+2018-04-19 01:19:48  INFO ServerProperties:46 - server.port=10087
+2018-04-19 01:19:48  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 01:19:48  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 01:19:48  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 01:19:48  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 01:19:48  INFO ServerProperties:46 - server.mode=0
+2018-04-19 01:19:48  INFO Main:28 - Startup the main ui
+2018-04-19 01:19:53  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 01:19:53  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 01:19:53  INFO Players:81 - 111111110
+2018-04-19 01:19:53  INFO Players:81 - 111111111
+2018-04-19 01:19:53  INFO Players:90 - Total players: 2
+2018-04-19 01:19:53  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 01:19:53  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 01:19:53  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 01:19:53  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 01:19:53  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:20:15  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50863
+2018-04-19 01:20:15  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:20:26  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50867
+2018-04-19 01:20:26  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:24:48  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 01:24:48  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 01:24:48  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 01:24:48  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 01:24:48  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 01:24:48  INFO ServerProperties:46 - see.error=true
+2018-04-19 01:24:48  INFO ServerProperties:46 - ui.height=674
+2018-04-19 01:24:48  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 01:24:48  INFO ServerProperties:46 - filter.out=0
+2018-04-19 01:24:48  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 01:24:48  INFO ServerProperties:46 - round.steps=70
+2018-04-19 01:24:48  INFO ServerProperties:46 - play.interval=0
+2018-04-19 01:24:48  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 01:24:48  INFO ServerProperties:46 - robot.model=0
+2018-04-19 01:24:48  INFO ServerProperties:46 - server.port=10087
+2018-04-19 01:24:48  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 01:24:48  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 01:24:48  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 01:24:48  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 01:24:48  INFO ServerProperties:46 - server.mode=0
+2018-04-19 01:24:48  INFO Main:28 - Startup the main ui
+2018-04-19 01:24:52  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 01:24:52  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 01:24:52  INFO Players:81 - 111111110
+2018-04-19 01:24:52  INFO Players:81 - 111111111
+2018-04-19 01:24:52  INFO Players:90 - Total players: 2
+2018-04-19 01:24:52  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 01:24:52  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 01:24:52  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 01:24:52  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 01:24:52  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:25:04  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50928
+2018-04-19 01:25:04  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:25:30  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50936
+2018-04-19 01:25:30  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:28:21  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 01:28:21  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 01:28:21  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 01:28:21  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 01:28:21  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 01:28:21  INFO ServerProperties:46 - see.error=true
+2018-04-19 01:28:21  INFO ServerProperties:46 - ui.height=674
+2018-04-19 01:28:21  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 01:28:21  INFO ServerProperties:46 - filter.out=0
+2018-04-19 01:28:21  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 01:28:21  INFO ServerProperties:46 - round.steps=70
+2018-04-19 01:28:21  INFO ServerProperties:46 - play.interval=0
+2018-04-19 01:28:21  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 01:28:21  INFO ServerProperties:46 - robot.model=0
+2018-04-19 01:28:21  INFO ServerProperties:46 - server.port=10087
+2018-04-19 01:28:21  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 01:28:21  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 01:28:21  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 01:28:21  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 01:28:21  INFO ServerProperties:46 - server.mode=0
+2018-04-19 01:28:21  INFO Main:28 - Startup the main ui
+2018-04-19 01:28:26  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 01:28:26  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 01:28:26  INFO Players:81 - 111111110
+2018-04-19 01:28:26  INFO Players:81 - 111111111
+2018-04-19 01:28:26  INFO Players:90 - Total players: 2
+2018-04-19 01:28:27  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 01:28:27  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 01:28:27  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 01:28:27  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 01:28:27  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:28:37  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50954
+2018-04-19 01:28:37  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:28:47  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50959
+2018-04-19 01:28:47  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:29:55  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 01:29:55  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 01:29:55  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 01:29:55  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 01:29:55  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 01:29:55  INFO ServerProperties:46 - see.error=true
+2018-04-19 01:29:55  INFO ServerProperties:46 - ui.height=674
+2018-04-19 01:29:55  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 01:29:55  INFO ServerProperties:46 - filter.out=0
+2018-04-19 01:29:55  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 01:29:55  INFO ServerProperties:46 - round.steps=70
+2018-04-19 01:29:55  INFO ServerProperties:46 - play.interval=0
+2018-04-19 01:29:55  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 01:29:55  INFO ServerProperties:46 - robot.model=0
+2018-04-19 01:29:55  INFO ServerProperties:46 - server.port=10087
+2018-04-19 01:29:55  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 01:29:55  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 01:29:55  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 01:29:55  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 01:29:55  INFO ServerProperties:46 - server.mode=0
+2018-04-19 01:29:55  INFO Main:28 - Startup the main ui
+2018-04-19 01:29:59  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 01:29:59  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 01:29:59  INFO Players:81 - 111111110
+2018-04-19 01:29:59  INFO Players:81 - 111111111
+2018-04-19 01:29:59  INFO Players:90 - Total players: 2
+2018-04-19 01:29:59  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 01:29:59  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 01:29:59  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 01:29:59  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 01:29:59  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:30:04  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50977
+2018-04-19 01:30:04  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:30:14  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:50980
+2018-04-19 01:30:14  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 01:47:19 ERROR Players:109 - The winners as follow:
+2018-04-19 01:47:19 ERROR Players:117 - 111111111
+2018-04-19 01:47:19 ERROR Players:140 - Total winners: 1
+2018-04-19 01:47:19 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 01:47:19 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 03:30:07  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 03:30:07  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 03:30:07  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 03:30:07  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 03:30:07  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 03:30:07  INFO ServerProperties:46 - see.error=true
+2018-04-19 03:30:07  INFO ServerProperties:46 - ui.height=674
+2018-04-19 03:30:07  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 03:30:07  INFO ServerProperties:46 - filter.out=0
+2018-04-19 03:30:07  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 03:30:07  INFO ServerProperties:46 - round.steps=70
+2018-04-19 03:30:07  INFO ServerProperties:46 - play.interval=0
+2018-04-19 03:30:07  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 03:30:07  INFO ServerProperties:46 - robot.model=0
+2018-04-19 03:30:07  INFO ServerProperties:46 - server.port=10087
+2018-04-19 03:30:07  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 03:30:07  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 03:30:07  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 03:30:07  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 03:30:07  INFO ServerProperties:46 - server.mode=0
+2018-04-19 03:30:07  INFO Main:28 - Startup the main ui
+2018-04-19 03:30:12  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 03:30:12  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 03:30:12  INFO Players:81 - 111111111
+2018-04-19 03:30:12  INFO Players:90 - Total players: 1
+2018-04-19 03:30:12  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 03:30:12  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 03:30:12  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 03:30:12  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 03:30:12  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 03:30:19  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 03:30:19  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 03:30:19  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 03:30:19  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 03:30:19  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 03:30:19  INFO ServerProperties:46 - see.error=true
+2018-04-19 03:30:19  INFO ServerProperties:46 - ui.height=674
+2018-04-19 03:30:19  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 03:30:19  INFO ServerProperties:46 - filter.out=0
+2018-04-19 03:30:19  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 03:30:19  INFO ServerProperties:46 - round.steps=70
+2018-04-19 03:30:19  INFO ServerProperties:46 - play.interval=0
+2018-04-19 03:30:19  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 03:30:19  INFO ServerProperties:46 - robot.model=0
+2018-04-19 03:30:19  INFO ServerProperties:46 - server.port=10087
+2018-04-19 03:30:19  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 03:30:19  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 03:30:19  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 03:30:19  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 03:30:19  INFO ServerProperties:46 - server.mode=0
+2018-04-19 03:30:19  INFO Main:28 - Startup the main ui
+2018-04-19 03:30:24  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 03:30:24  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 03:30:24  INFO Players:81 - 111111110
+2018-04-19 03:30:24  INFO Players:81 - 111111111
+2018-04-19 03:30:24  INFO Players:90 - Total players: 2
+2018-04-19 03:30:24  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 03:30:24  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 03:30:24  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 03:30:24  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 03:30:24  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 03:30:27  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51920
+2018-04-19 03:30:27  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 03:30:38  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51927
+2018-04-19 03:30:38  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 03:35:18 ERROR Players:109 - The winners as follow:
+2018-04-19 03:35:18 ERROR Players:117 - 111111111
+2018-04-19 03:35:18 ERROR Players:140 - Total winners: 1
+2018-04-19 03:35:18 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 03:35:18 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 04:29:03  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 04:29:03  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 04:29:03  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 04:29:03  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 04:29:03  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 04:29:03  INFO ServerProperties:46 - see.error=true
+2018-04-19 04:29:03  INFO ServerProperties:46 - ui.height=674
+2018-04-19 04:29:03  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 04:29:03  INFO ServerProperties:46 - filter.out=0
+2018-04-19 04:29:03  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 04:29:03  INFO ServerProperties:46 - round.steps=70
+2018-04-19 04:29:03  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 04:29:03  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 04:29:03  INFO ServerProperties:46 - robot.model=0
+2018-04-19 04:29:03  INFO ServerProperties:46 - server.port=10087
+2018-04-19 04:29:03  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 04:29:03  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 04:29:03  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 04:29:03  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 04:29:03  INFO ServerProperties:46 - server.mode=0
+2018-04-19 04:29:03  INFO Main:28 - Startup the main ui
+2018-04-19 04:29:06  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 04:29:06  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 04:29:06  INFO Players:81 - 111111110
+2018-04-19 04:29:06  INFO Players:81 - 111111111
+2018-04-19 04:29:06  INFO Players:90 - Total players: 2
+2018-04-19 04:29:06  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 04:29:06  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 04:29:06  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 04:29:06  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 04:29:06  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 04:29:16  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52360
+2018-04-19 04:29:16  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 04:29:25  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52365
+2018-04-19 04:29:25  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 04:38:50 ERROR Players:109 - The winners as follow:
+2018-04-19 04:38:50 ERROR Players:122 - 111111111
+2018-04-19 04:38:50 ERROR Players:140 - Total winners: 1
+2018-04-19 04:38:50 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 04:38:50 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 04:40:53  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 04:40:53  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 04:40:53  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 04:40:53  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 04:40:53  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 04:40:53  INFO ServerProperties:46 - see.error=true
+2018-04-19 04:40:53  INFO ServerProperties:46 - ui.height=674
+2018-04-19 04:40:53  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 04:40:53  INFO ServerProperties:46 - filter.out=0
+2018-04-19 04:40:53  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 04:40:53  INFO ServerProperties:46 - round.steps=70
+2018-04-19 04:40:53  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 04:40:53  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 04:40:53  INFO ServerProperties:46 - robot.model=0
+2018-04-19 04:40:53  INFO ServerProperties:46 - server.port=10087
+2018-04-19 04:40:53  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 04:40:53  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 04:40:53  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 04:40:53  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 04:40:53  INFO ServerProperties:46 - server.mode=0
+2018-04-19 04:40:53  INFO Main:28 - Startup the main ui
+2018-04-19 04:40:57  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 04:40:57  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 04:40:57  INFO Players:81 - 111111110
+2018-04-19 04:40:57  INFO Players:81 - 111111111
+2018-04-19 04:40:57  INFO Players:90 - Total players: 2
+2018-04-19 04:40:58  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 04:40:58  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 04:40:58  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 04:40:58  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 04:40:58  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 04:41:03  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52459
+2018-04-19 04:41:03  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 04:41:13  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52463
+2018-04-19 04:41:13  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 04:44:08 ERROR Players:109 - The winners as follow:
+2018-04-19 04:44:08 ERROR Players:122 - 111111111
+2018-04-19 04:44:08 ERROR Players:140 - Total winners: 1
+2018-04-19 04:44:08 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 04:44:08 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 05:07:37  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 05:07:37  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 05:07:37  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 05:07:37  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 05:07:37  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 05:07:37  INFO ServerProperties:46 - see.error=true
+2018-04-19 05:07:37  INFO ServerProperties:46 - ui.height=674
+2018-04-19 05:07:37  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 05:07:37  INFO ServerProperties:46 - filter.out=0
+2018-04-19 05:07:37  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 05:07:37  INFO ServerProperties:46 - round.steps=70
+2018-04-19 05:07:37  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 05:07:37  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 05:07:37  INFO ServerProperties:46 - robot.model=0
+2018-04-19 05:07:37  INFO ServerProperties:46 - server.port=10087
+2018-04-19 05:07:37  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 05:07:37  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 05:07:37  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 05:07:37  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 05:07:37  INFO ServerProperties:46 - server.mode=0
+2018-04-19 05:07:37  INFO Main:28 - Startup the main ui
+2018-04-19 05:07:40  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 05:07:40  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 05:07:40  INFO Players:81 - 111111111
+2018-04-19 05:07:40  INFO Players:90 - Total players: 1
+2018-04-19 05:07:40  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 05:07:40  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 05:07:40  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 05:07:40  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 05:07:40  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:07:57  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 05:07:57  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 05:07:57  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 05:07:57  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 05:07:57  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 05:07:57  INFO ServerProperties:46 - see.error=true
+2018-04-19 05:07:57  INFO ServerProperties:46 - ui.height=674
+2018-04-19 05:07:57  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 05:07:57  INFO ServerProperties:46 - filter.out=0
+2018-04-19 05:07:57  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 05:07:57  INFO ServerProperties:46 - round.steps=70
+2018-04-19 05:07:57  INFO ServerProperties:46 - play.interval=500
+2018-04-19 05:07:57  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 05:07:57  INFO ServerProperties:46 - robot.model=0
+2018-04-19 05:07:57  INFO ServerProperties:46 - server.port=10087
+2018-04-19 05:07:57  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 05:07:57  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 05:07:57  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 05:07:57  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 05:07:57  INFO ServerProperties:46 - server.mode=0
+2018-04-19 05:07:57  INFO Main:28 - Startup the main ui
+2018-04-19 05:08:01  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 05:08:01  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 05:08:01  INFO Players:81 - 111111111
+2018-04-19 05:08:01  INFO Players:90 - Total players: 1
+2018-04-19 05:08:01  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 05:08:01  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 05:08:01  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 05:08:01  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 05:08:01  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:08:06  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 05:08:06  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 05:08:06  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 05:08:06  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 05:08:06  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 05:08:06  INFO ServerProperties:46 - see.error=true
+2018-04-19 05:08:06  INFO ServerProperties:46 - ui.height=674
+2018-04-19 05:08:06  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 05:08:06  INFO ServerProperties:46 - filter.out=0
+2018-04-19 05:08:06  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 05:08:06  INFO ServerProperties:46 - round.steps=70
+2018-04-19 05:08:06  INFO ServerProperties:46 - play.interval=500
+2018-04-19 05:08:06  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 05:08:06  INFO ServerProperties:46 - robot.model=0
+2018-04-19 05:08:06  INFO ServerProperties:46 - server.port=10087
+2018-04-19 05:08:06  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 05:08:06  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 05:08:06  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 05:08:06  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 05:08:06  INFO ServerProperties:46 - server.mode=0
+2018-04-19 05:08:06  INFO Main:28 - Startup the main ui
+2018-04-19 05:08:10  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 05:08:10  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 05:08:10  INFO Players:81 - 111111110
+2018-04-19 05:08:10  INFO Players:81 - 111111111
+2018-04-19 05:08:10  INFO Players:90 - Total players: 2
+2018-04-19 05:08:10  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 05:08:10  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 05:08:10  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 05:08:10  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 05:08:10  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:08:19  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52665
+2018-04-19 05:08:19  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:08:29  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52669
+2018-04-19 05:08:29  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:10:06 ERROR Players:109 - The winners as follow:
+2018-04-19 05:10:06 ERROR Players:117 - 111111110
+2018-04-19 05:10:06 ERROR Players:140 - Total winners: 1
+2018-04-19 05:10:06 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 05:10:06 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 05:12:43  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 05:12:43  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 05:12:43  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 05:12:43  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 05:12:43  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 05:12:43  INFO ServerProperties:46 - see.error=true
+2018-04-19 05:12:43  INFO ServerProperties:46 - ui.height=674
+2018-04-19 05:12:43  INFO ServerProperties:46 - contest.rounds=1
+2018-04-19 05:12:43  INFO ServerProperties:46 - filter.out=0
+2018-04-19 05:12:43  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 05:12:43  INFO ServerProperties:46 - round.steps=70
+2018-04-19 05:12:43  INFO ServerProperties:46 - play.interval=0
+2018-04-19 05:12:43  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 05:12:43  INFO ServerProperties:46 - robot.model=0
+2018-04-19 05:12:43  INFO ServerProperties:46 - server.port=10087
+2018-04-19 05:12:43  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 05:12:43  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 05:12:43  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 05:12:43  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 05:12:43  INFO ServerProperties:46 - server.mode=0
+2018-04-19 05:12:43  INFO Main:28 - Startup the main ui
+2018-04-19 05:12:47  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 05:12:47  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 05:12:47  INFO Players:81 - 111111110
+2018-04-19 05:12:47  INFO Players:81 - 111111111
+2018-04-19 05:12:47  INFO Players:90 - Total players: 2
+2018-04-19 05:12:47  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 05:12:47  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 05:12:47  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 05:12:47  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 05:12:47  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:13:04  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52693
+2018-04-19 05:13:04  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:13:18  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52697
+2018-04-19 05:13:18  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:13:20 ERROR Players:109 - The winners as follow:
+2018-04-19 05:13:20 ERROR Players:117 - 111111110
+2018-04-19 05:13:20 ERROR Players:140 - Total winners: 1
+2018-04-19 05:13:20 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 05:13:20 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 05:13:50  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 05:13:50  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 05:13:50  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 05:13:50  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 05:13:50  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 05:13:50  INFO ServerProperties:46 - see.error=true
+2018-04-19 05:13:50  INFO ServerProperties:46 - ui.height=674
+2018-04-19 05:13:50  INFO ServerProperties:46 - contest.rounds=2
+2018-04-19 05:13:50  INFO ServerProperties:46 - filter.out=0
+2018-04-19 05:13:50  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 05:13:50  INFO ServerProperties:46 - round.steps=70
+2018-04-19 05:13:50  INFO ServerProperties:46 - play.interval=0
+2018-04-19 05:13:50  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 05:13:50  INFO ServerProperties:46 - robot.model=0
+2018-04-19 05:13:50  INFO ServerProperties:46 - server.port=10087
+2018-04-19 05:13:50  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 05:13:50  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 05:13:50  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 05:13:50  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 05:13:50  INFO ServerProperties:46 - server.mode=0
+2018-04-19 05:13:50  INFO Main:28 - Startup the main ui
+2018-04-19 05:13:54  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 05:13:54  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 05:13:54  INFO Players:81 - 111111110
+2018-04-19 05:13:54  INFO Players:81 - 111111111
+2018-04-19 05:13:54  INFO Players:90 - Total players: 2
+2018-04-19 05:13:54  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 05:13:54  INFO ClientConnectMonitor:62 - Server address is: 192.168.31.146:10087
+2018-04-19 05:13:54  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 05:13:54  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 05:13:54  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:14:01  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52706
+2018-04-19 05:14:01  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:14:11  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52710
+2018-04-19 05:14:11  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 05:14:13 ERROR Players:109 - The winners as follow:
+2018-04-19 05:14:13 ERROR Players:122 - 111111111
+2018-04-19 05:14:13 ERROR Players:140 - Total winners: 1
+2018-04-19 05:14:13 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 05:14:13 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 05:14:40 ERROR RecordResolver:110 - java.lang.StringIndexOutOfBoundsException: String index out of range: 1
+2018-04-19 07:55:12  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 07:55:12  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 07:55:12  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 07:55:12  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 07:55:12  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 07:55:12  INFO ServerProperties:46 - see.error=true
+2018-04-19 07:55:12  INFO ServerProperties:46 - ui.height=674
+2018-04-19 07:55:12  INFO ServerProperties:46 - contest.rounds=2
+2018-04-19 07:55:12  INFO ServerProperties:46 - filter.out=0
+2018-04-19 07:55:12  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 07:55:12  INFO ServerProperties:46 - round.steps=70
+2018-04-19 07:55:12  INFO ServerProperties:46 - play.interval=0
+2018-04-19 07:55:12  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 07:55:12  INFO ServerProperties:46 - robot.model=0
+2018-04-19 07:55:12  INFO ServerProperties:46 - server.port=10087
+2018-04-19 07:55:12  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 07:55:12  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 07:55:12  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 07:55:12  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 07:55:12  INFO ServerProperties:46 - server.mode=0
+2018-04-19 07:55:12  INFO Main:28 - Startup the main ui
+2018-04-19 07:55:29  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 07:55:29  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 07:55:29  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 07:55:29  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 07:55:29  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 07:55:29  INFO ServerProperties:46 - see.error=true
+2018-04-19 07:55:29  INFO ServerProperties:46 - ui.height=674
+2018-04-19 07:55:29  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 07:55:29  INFO ServerProperties:46 - filter.out=0
+2018-04-19 07:55:29  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 07:55:29  INFO ServerProperties:46 - round.steps=70
+2018-04-19 07:55:29  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 07:55:29  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 07:55:29  INFO ServerProperties:46 - robot.model=0
+2018-04-19 07:55:29  INFO ServerProperties:46 - server.port=10087
+2018-04-19 07:55:29  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 07:55:29  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 07:55:29  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 07:55:29  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 07:55:29  INFO ServerProperties:46 - server.mode=0
+2018-04-19 07:55:29  INFO Main:28 - Startup the main ui
+2018-04-19 07:55:32  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 07:55:32  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 07:55:32  INFO Players:81 - 111111110
+2018-04-19 07:55:32  INFO Players:81 - 111111111
+2018-04-19 07:55:32  INFO Players:90 - Total players: 2
+2018-04-19 07:55:32  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 07:55:32  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 07:55:32  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 07:55:32  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 07:55:32  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 07:56:21  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:55716
+2018-04-19 07:56:21  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 07:56:39  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:55733
+2018-04-19 07:56:39  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 07:56:43 ERROR Players:109 - The winners as follow:
+2018-04-19 07:56:43 ERROR Players:122 - 111111111
+2018-04-19 07:56:43 ERROR Players:140 - Total winners: 1
+2018-04-19 07:56:43 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 07:56:43 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 08:01:42  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 08:01:42  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 08:01:42  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 08:01:42  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 08:01:42  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 08:01:42  INFO ServerProperties:46 - see.error=true
+2018-04-19 08:01:42  INFO ServerProperties:46 - ui.height=674
+2018-04-19 08:01:42  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 08:01:42  INFO ServerProperties:46 - filter.out=0
+2018-04-19 08:01:42  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 08:01:42  INFO ServerProperties:46 - round.steps=70
+2018-04-19 08:01:42  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 08:01:42  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 08:01:42  INFO ServerProperties:46 - robot.model=0
+2018-04-19 08:01:42  INFO ServerProperties:46 - server.port=10087
+2018-04-19 08:01:42  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 08:01:42  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 08:01:42  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 08:01:42  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 08:01:42  INFO ServerProperties:46 - server.mode=0
+2018-04-19 08:01:42  INFO Main:28 - Startup the main ui
+2018-04-19 08:01:46  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 08:01:46  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 08:01:46  INFO Players:81 - 111111110
+2018-04-19 08:01:46  INFO Players:81 - 111111111
+2018-04-19 08:01:46  INFO Players:90 - Total players: 2
+2018-04-19 08:01:46  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 08:01:46  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 08:01:46  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 08:01:46  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 08:01:46  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 08:01:52  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:56034
+2018-04-19 08:01:52  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 08:02:03  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:56044
+2018-04-19 08:02:03  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 08:05:11 ERROR Players:109 - The winners as follow:
+2018-04-19 08:05:11 ERROR Players:117 - 111111111
+2018-04-19 08:05:11 ERROR Players:140 - Total winners: 1
+2018-04-19 08:05:11 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 08:05:11 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 15:03:03  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 15:03:03  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 15:03:03  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 15:03:03  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 15:03:03  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 15:03:03  INFO ServerProperties:46 - see.error=true
+2018-04-19 15:03:03  INFO ServerProperties:46 - ui.height=674
+2018-04-19 15:03:03  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 15:03:03  INFO ServerProperties:46 - filter.out=0
+2018-04-19 15:03:03  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 15:03:03  INFO ServerProperties:46 - round.steps=70
+2018-04-19 15:03:03  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 15:03:03  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 15:03:03  INFO ServerProperties:46 - robot.model=0
+2018-04-19 15:03:03  INFO ServerProperties:46 - server.port=10087
+2018-04-19 15:03:03  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 15:03:03  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 15:03:03  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 15:03:03  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 15:03:03  INFO ServerProperties:46 - server.mode=0
+2018-04-19 15:03:03  INFO Main:28 - Startup the main ui
+2018-04-19 15:03:07  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 15:03:07  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 15:03:07  INFO Players:81 - 111111111
+2018-04-19 15:03:07  INFO Players:90 - Total players: 1
+2018-04-19 15:03:07  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 15:03:07  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 15:03:07  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 15:03:07  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 15:03:07  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:03:34  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51645
+2018-04-19 15:03:34  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:03:44  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 15:03:44  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 15:03:44  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 15:03:44  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 15:03:44  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 15:03:44  INFO ServerProperties:46 - see.error=true
+2018-04-19 15:03:44  INFO ServerProperties:46 - ui.height=674
+2018-04-19 15:03:44  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 15:03:44  INFO ServerProperties:46 - filter.out=0
+2018-04-19 15:03:44  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 15:03:44  INFO ServerProperties:46 - round.steps=70
+2018-04-19 15:03:44  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 15:03:44  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 15:03:44  INFO ServerProperties:46 - robot.model=0
+2018-04-19 15:03:44  INFO ServerProperties:46 - server.port=10087
+2018-04-19 15:03:44  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 15:03:44  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 15:03:44  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 15:03:44  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 15:03:44  INFO ServerProperties:46 - server.mode=0
+2018-04-19 15:03:44  INFO Main:28 - Startup the main ui
+2018-04-19 15:03:49  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 15:03:49  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 15:03:49  INFO Players:81 - 111111110
+2018-04-19 15:03:49  INFO Players:81 - 111111111
+2018-04-19 15:03:49  INFO Players:90 - Total players: 2
+2018-04-19 15:03:49  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 15:03:49  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 15:03:49  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 15:03:49  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 15:03:49  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:03:54  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51655
+2018-04-19 15:03:54  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:04:04  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51658
+2018-04-19 15:04:04  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:07:06 ERROR Players:109 - The winners as follow:
+2018-04-19 15:07:06 ERROR Players:122 - 111111110
+2018-04-19 15:07:06 ERROR Players:140 - Total winners: 1
+2018-04-19 15:07:06 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 15:07:06 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 15:18:01  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 15:18:01  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 15:18:01  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 15:18:01  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 15:18:01  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 15:18:01  INFO ServerProperties:46 - see.error=true
+2018-04-19 15:18:01  INFO ServerProperties:46 - ui.height=674
+2018-04-19 15:18:01  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 15:18:01  INFO ServerProperties:46 - filter.out=0
+2018-04-19 15:18:01  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 15:18:01  INFO ServerProperties:46 - round.steps=70
+2018-04-19 15:18:01  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 15:18:01  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 15:18:01  INFO ServerProperties:46 - robot.model=0
+2018-04-19 15:18:01  INFO ServerProperties:46 - server.port=10087
+2018-04-19 15:18:01  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 15:18:01  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 15:18:01  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 15:18:01  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 15:18:01  INFO ServerProperties:46 - server.mode=0
+2018-04-19 15:18:01  INFO Main:28 - Startup the main ui
+2018-04-19 15:18:05  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 15:18:05  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 15:18:05  INFO Players:81 - 111111110
+2018-04-19 15:18:05  INFO Players:90 - Total players: 1
+2018-04-19 15:18:05  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 15:18:05  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 15:18:05  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 15:18:05  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 15:18:05  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:18:09  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 15:18:09  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 15:18:09  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 15:18:09  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 15:18:09  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 15:18:09  INFO ServerProperties:46 - see.error=true
+2018-04-19 15:18:09  INFO ServerProperties:46 - ui.height=674
+2018-04-19 15:18:09  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 15:18:09  INFO ServerProperties:46 - filter.out=0
+2018-04-19 15:18:09  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 15:18:09  INFO ServerProperties:46 - round.steps=70
+2018-04-19 15:18:09  INFO ServerProperties:46 - play.interval=1000
+2018-04-19 15:18:09  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 15:18:09  INFO ServerProperties:46 - robot.model=0
+2018-04-19 15:18:09  INFO ServerProperties:46 - server.port=10087
+2018-04-19 15:18:09  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 15:18:09  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 15:18:09  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 15:18:09  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 15:18:09  INFO ServerProperties:46 - server.mode=0
+2018-04-19 15:18:09  INFO Main:28 - Startup the main ui
+2018-04-19 15:18:14  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 15:18:14  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 15:18:14  INFO Players:81 - 111111110
+2018-04-19 15:18:14  INFO Players:81 - 111111111
+2018-04-19 15:18:14  INFO Players:90 - Total players: 2
+2018-04-19 15:18:14  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 15:18:14  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 15:18:14  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 15:18:14  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 15:18:14  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:18:18  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51717
+2018-04-19 15:18:18  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:18:28  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51720
+2018-04-19 15:18:28  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:51:10  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 15:51:10  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 15:51:10  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 15:51:10  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 15:51:10  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 15:51:10  INFO ServerProperties:46 - see.error=true
+2018-04-19 15:51:10  INFO ServerProperties:46 - ui.height=674
+2018-04-19 15:51:10  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 15:51:10  INFO ServerProperties:46 - filter.out=0
+2018-04-19 15:51:10  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 15:51:10  INFO ServerProperties:46 - round.steps=70
+2018-04-19 15:51:10  INFO ServerProperties:46 - play.interval=0
+2018-04-19 15:51:10  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 15:51:10  INFO ServerProperties:46 - robot.model=0
+2018-04-19 15:51:10  INFO ServerProperties:46 - server.port=10087
+2018-04-19 15:51:10  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 15:51:10  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 15:51:10  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 15:51:10  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 15:51:10  INFO ServerProperties:46 - server.mode=0
+2018-04-19 15:51:10  INFO Main:28 - Startup the main ui
+2018-04-19 15:51:15  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 15:51:15  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 15:51:15  INFO Players:81 - 111111110
+2018-04-19 15:51:15  INFO Players:81 - 111111111
+2018-04-19 15:51:15  INFO Players:90 - Total players: 2
+2018-04-19 15:51:15  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 15:51:15  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 15:51:15  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 15:51:15  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 15:51:15  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:51:20  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51931
+2018-04-19 15:51:20  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:51:30  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:51944
+2018-04-19 15:51:30  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 15:51:32 ERROR Players:109 - The winners as follow:
+2018-04-19 15:51:32 ERROR Players:122 - 111111111
+2018-04-19 15:51:32 ERROR Players:140 - Total winners: 1
+2018-04-19 15:51:32 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 15:51:32 ERROR Players:183 - Export promotion palyers sucess!
+2018-04-19 16:05:57  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 16:05:57  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 16:05:57  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 16:05:57  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 16:05:57  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 16:05:57  INFO ServerProperties:46 - see.error=true
+2018-04-19 16:05:57  INFO ServerProperties:46 - ui.height=674
+2018-04-19 16:05:57  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 16:05:57  INFO ServerProperties:46 - filter.out=0
+2018-04-19 16:05:57  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 16:05:57  INFO ServerProperties:46 - round.steps=70
+2018-04-19 16:05:57  INFO ServerProperties:46 - play.interval=0
+2018-04-19 16:05:57  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 16:05:57  INFO ServerProperties:46 - robot.model=0
+2018-04-19 16:05:57  INFO ServerProperties:46 - server.port=10087
+2018-04-19 16:05:57  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 16:05:57  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 16:05:57  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 16:05:57  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 16:05:57  INFO ServerProperties:46 - server.mode=1
+2018-04-19 16:05:57  INFO Main:28 - Startup the main ui
+2018-04-19 16:06:01  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 16:06:01  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 16:06:01  INFO Players:81 - 111111111
+2018-04-19 16:06:01  INFO Players:90 - Total players: 1
+2018-04-19 16:06:01  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 16:06:01  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 16:06:01  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 16:06:01  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 16:06:01  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:06:04  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52031
+2018-04-19 16:06:04  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:06:04  INFO RobotAIFactory:27 - Produce one Robot Travel
+2018-04-19 16:07:12  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 16:07:12  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 16:07:12  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 16:07:12  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 16:07:12  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 16:07:12  INFO ServerProperties:46 - see.error=true
+2018-04-19 16:07:12  INFO ServerProperties:46 - ui.height=674
+2018-04-19 16:07:12  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 16:07:12  INFO ServerProperties:46 - filter.out=0
+2018-04-19 16:07:12  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 16:07:12  INFO ServerProperties:46 - round.steps=70
+2018-04-19 16:07:12  INFO ServerProperties:46 - play.interval=0
+2018-04-19 16:07:12  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 16:07:12  INFO ServerProperties:46 - robot.model=0
+2018-04-19 16:07:12  INFO ServerProperties:46 - server.port=10087
+2018-04-19 16:07:12  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 16:07:12  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 16:07:12  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 16:07:12  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 16:07:12  INFO ServerProperties:46 - server.mode=1
+2018-04-19 16:07:12  INFO Main:28 - Startup the main ui
+2018-04-19 16:07:16  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 16:07:16  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 16:07:16  INFO Players:81 - 111111111
+2018-04-19 16:07:16  INFO Players:90 - Total players: 1
+2018-04-19 16:07:16  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 16:07:16  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 16:07:16  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 16:07:16  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 16:07:16  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:13:08  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52061
+2018-04-19 16:13:08  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:13:08  INFO RobotAIFactory:27 - Produce one Robot Travel
+2018-04-19 16:14:22 ERROR RecordResolver:110 - java.lang.StringIndexOutOfBoundsException: String index out of range: 1
+2018-04-19 16:25:30  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 16:25:30  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 16:25:30  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 16:25:30  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 16:25:30  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 16:25:30  INFO ServerProperties:46 - see.error=true
+2018-04-19 16:25:30  INFO ServerProperties:46 - ui.height=674
+2018-04-19 16:25:30  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 16:25:30  INFO ServerProperties:46 - filter.out=0
+2018-04-19 16:25:30  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 16:25:30  INFO ServerProperties:46 - round.steps=70
+2018-04-19 16:25:30  INFO ServerProperties:46 - play.interval=0
+2018-04-19 16:25:30  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 16:25:30  INFO ServerProperties:46 - robot.model=0
+2018-04-19 16:25:30  INFO ServerProperties:46 - server.port=10087
+2018-04-19 16:25:30  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 16:25:30  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 16:25:30  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 16:25:30  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 16:25:30  INFO ServerProperties:46 - server.mode=1
+2018-04-19 16:25:30  INFO Main:28 - Startup the main ui
+2018-04-19 16:25:34  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 16:25:34  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 16:25:34  INFO Players:81 - 111111111
+2018-04-19 16:25:34  INFO Players:90 - Total players: 1
+2018-04-19 16:25:34  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 16:25:34  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 16:25:34  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 16:25:34  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 16:25:34  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:25:38  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52150
+2018-04-19 16:25:38  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:25:38  INFO RobotAIFactory:27 - Produce one Robot Travel
+2018-04-19 16:39:36  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 16:39:36  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 16:39:36  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 16:39:36  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 16:39:36  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 16:39:36  INFO ServerProperties:46 - see.error=true
+2018-04-19 16:39:36  INFO ServerProperties:46 - ui.height=674
+2018-04-19 16:39:36  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 16:39:36  INFO ServerProperties:46 - filter.out=0
+2018-04-19 16:39:36  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 16:39:36  INFO ServerProperties:46 - round.steps=70
+2018-04-19 16:39:36  INFO ServerProperties:46 - play.interval=0
+2018-04-19 16:39:36  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 16:39:36  INFO ServerProperties:46 - robot.model=0
+2018-04-19 16:39:36  INFO ServerProperties:46 - server.port=10087
+2018-04-19 16:39:36  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 16:39:36  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 16:39:36  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 16:39:36  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 16:39:36  INFO ServerProperties:46 - server.mode=1
+2018-04-19 16:39:36  INFO Main:28 - Startup the main ui
+2018-04-19 16:39:40  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 16:39:40  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 16:39:40  INFO Players:81 - 111111111
+2018-04-19 16:39:40  INFO Players:90 - Total players: 1
+2018-04-19 16:39:41  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 16:39:41  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 16:39:41  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 16:39:41  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 16:39:41  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:40:11  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 16:40:11  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 16:40:11  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 16:40:11  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 16:40:11  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 16:40:11  INFO ServerProperties:46 - see.error=true
+2018-04-19 16:40:11  INFO ServerProperties:46 - ui.height=674
+2018-04-19 16:40:11  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 16:40:11  INFO ServerProperties:46 - filter.out=0
+2018-04-19 16:40:11  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 16:40:11  INFO ServerProperties:46 - round.steps=70
+2018-04-19 16:40:11  INFO ServerProperties:46 - play.interval=0
+2018-04-19 16:40:11  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 16:40:11  INFO ServerProperties:46 - robot.model=0
+2018-04-19 16:40:11  INFO ServerProperties:46 - server.port=10087
+2018-04-19 16:40:11  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 16:40:11  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 16:40:11  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 16:40:11  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 16:40:11  INFO ServerProperties:46 - server.mode=1
+2018-04-19 16:40:11  INFO Main:28 - Startup the main ui
+2018-04-19 16:40:15  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 16:40:15  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 16:40:15  INFO Players:81 - 111111111
+2018-04-19 16:40:15  INFO Players:90 - Total players: 1
+2018-04-19 16:40:15  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 16:40:15  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 16:40:15  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 16:40:15  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 16:40:15  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:40:17  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52235
+2018-04-19 16:40:17  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:40:17  INFO RobotAIFactory:27 - Produce one Robot Travel
+2018-04-19 16:41:32  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 16:41:32  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 16:41:32  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 16:41:32  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 16:41:32  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 16:41:32  INFO ServerProperties:46 - see.error=true
+2018-04-19 16:41:32  INFO ServerProperties:46 - ui.height=674
+2018-04-19 16:41:32  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 16:41:32  INFO ServerProperties:46 - filter.out=0
+2018-04-19 16:41:32  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 16:41:32  INFO ServerProperties:46 - round.steps=70
+2018-04-19 16:41:32  INFO ServerProperties:46 - play.interval=0
+2018-04-19 16:41:32  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 16:41:32  INFO ServerProperties:46 - robot.model=0
+2018-04-19 16:41:32  INFO ServerProperties:46 - server.port=10087
+2018-04-19 16:41:32  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 16:41:32  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 16:41:32  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 16:41:32  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 16:41:32  INFO ServerProperties:46 - server.mode=1
+2018-04-19 16:41:32  INFO Main:28 - Startup the main ui
+2018-04-19 16:41:36  INFO Players:67 - Load list file: players-2.txt
+2018-04-19 16:41:36  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 16:41:36  INFO Players:81 - 111111111
+2018-04-19 16:41:36  INFO Players:90 - Total players: 1
+2018-04-19 16:41:36  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 16:41:36  INFO ClientConnectMonitor:62 - Server address is: 172.27.144.233:10087
+2018-04-19 16:41:36  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 16:41:36  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 16:41:36  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:41:37  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:52249
+2018-04-19 16:41:37  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 16:41:37  INFO RobotAIFactory:27 - Produce one Robot Travel
+2018-04-19 20:24:32  INFO ServerProperties:44 - Read server.properties complete! The properties as follows: 
+2018-04-19 20:24:32  INFO ServerProperties:46 - step.error.number=3
+2018-04-19 20:24:32  INFO ServerProperties:46 - chess.board.rows=8
+2018-04-19 20:24:32  INFO ServerProperties:46 - chess.board.cols=8
+2018-04-19 20:24:32  INFO ServerProperties:46 - ui.width=1064
+2018-04-19 20:24:32  INFO ServerProperties:46 - see.error=true
+2018-04-19 20:24:32  INFO ServerProperties:46 - ui.height=674
+2018-04-19 20:24:32  INFO ServerProperties:46 - contest.rounds=3
+2018-04-19 20:24:32  INFO ServerProperties:46 - filter.out=0
+2018-04-19 20:24:32  INFO ServerProperties:46 - replay.speed=200
+2018-04-19 20:24:32  INFO ServerProperties:46 - round.steps=70
+2018-04-19 20:24:32  INFO ServerProperties:46 - play.interval=0
+2018-04-19 20:24:32  INFO ServerProperties:46 - ui.result.list.width=66
+2018-04-19 20:24:32  INFO ServerProperties:46 - robot.model=0
+2018-04-19 20:24:32  INFO ServerProperties:46 - server.port=10087
+2018-04-19 20:24:32  INFO ServerProperties:46 - debug.robot.b=1
+2018-04-19 20:24:32  INFO ServerProperties:46 - debug.robot.a=0
+2018-04-19 20:24:32  INFO ServerProperties:46 - step.timeout=5000
+2018-04-19 20:24:32  INFO ServerProperties:46 - disappear_freq=5
+2018-04-19 20:24:32  INFO ServerProperties:46 - server.mode=0
+2018-04-19 20:24:32  INFO Main:28 - Startup the main ui
+2018-04-19 20:24:37  INFO Players:67 - Load list file: players-1.txt
+2018-04-19 20:24:37  INFO Players:73 - The players authoried in this round as follow:
+2018-04-19 20:24:37  INFO Players:81 - 111111110
+2018-04-19 20:24:37  INFO Players:81 - 111111111
+2018-04-19 20:24:37  INFO Players:90 - Total players: 2
+2018-04-19 20:24:37  INFO ClientConnectMonitor:60 - Create server socket success!
+2018-04-19 20:24:37  INFO ClientConnectMonitor:62 - Server address is: 114.212.132.50:10087
+2018-04-19 20:24:37  INFO ClientConnectMonitor:64 - ClientConnectMonitor initialization complete!
+2018-04-19 20:24:37  INFO ClientConnectMonitor:74 - Start monitor...
+2018-04-19 20:24:37  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 20:24:39  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:59549
+2018-04-19 20:24:39  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 20:24:54  INFO ClientConnectMonitor:102 - Accepted one accession: 127.0.0.1:59571
+2018-04-19 20:24:54  INFO ClientConnectMonitor:82 - Waitting clients to access...
+2018-04-19 20:24:56 ERROR Players:109 - The winners as follow:
+2018-04-19 20:24:56 ERROR Players:122 - 111111110
+2018-04-19 20:24:56 ERROR Players:140 - Total winners: 1
+2018-04-19 20:24:56 ERROR Players:162 - Total promotion palyers: 1
+2018-04-19 20:24:56 ERROR Players:183 - Export promotion palyers sucess!

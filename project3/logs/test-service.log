@@ -1,0 +1,10 @@
+2018-05-10 23:29:39  INFO TestServiceRunnable:60 - 111111112vsRobotTravel-test-0 begin!
+2018-05-10 23:29:39  INFO TestServiceRunnable:70 - 111111112vsRobotTravel-test-0 round 0 start
+2018-05-10 23:29:40  INFO TestServiceRunnable:281 - 111111112vsRobotTravel-test-0 round 0 end
+2018-05-10 23:29:40  INFO TestServiceRunnable:70 - 111111112vsRobotTravel-test-0 round 1 start
+2018-05-10 23:29:41  INFO TestServiceRunnable:281 - 111111112vsRobotTravel-test-0 round 1 end
+2018-05-10 23:29:41  INFO TestServiceRunnable:70 - 111111112vsRobotTravel-test-0 round 2 start
+2018-05-10 23:29:42  INFO TestServiceRunnable:281 - 111111112vsRobotTravel-test-0 round 2 end
+2018-05-10 23:29:42  INFO TestServiceRunnable:317 - 111111112vsRobotTravel-test-0 game over
+2018-05-10 23:29:42  INFO TestServiceRunnable:324 - 111111112vsRobotTravel-test-0 result save done!
+2018-05-10 23:29:42  INFO TestServiceRunnable:329 - 111111112vsRobotTravel-test-0 record save done!

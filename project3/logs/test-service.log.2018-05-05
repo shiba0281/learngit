@@ -1,0 +1,22 @@
+2018-05-05 08:14:55  INFO TestServiceRunnable:60 - 111111113vsRobotTravel-test-2 begin!
+2018-05-05 08:14:55  INFO TestServiceRunnable:70 - 111111113vsRobotTravel-test-2 round 0 start
+2018-05-05 08:14:56 ERROR TestServiceRunnable:277 - java.lang.StringIndexOutOfBoundsException: String index out of range: 7
+2018-05-05 08:14:56 ERROR TestServiceRunnable:278 - 111111113vsRobotTravel-test-2 ROUND 0 Unkown Exception in 0 CONTEST
+2018-05-05 08:14:56  INFO TestServiceRunnable:289 - 111111113vsRobotTravel-test-2 round 0 end
+2018-05-05 08:14:56  INFO TestServiceRunnable:70 - 111111113vsRobotTravel-test-2 round 1 start
+2018-05-05 08:14:57  INFO TestServiceRunnable:289 - 111111113vsRobotTravel-test-2 round 1 end
+2018-05-05 08:14:57  INFO TestServiceRunnable:70 - 111111113vsRobotTravel-test-2 round 2 start
+2018-05-05 08:14:59  INFO TestServiceRunnable:289 - 111111113vsRobotTravel-test-2 round 2 end
+2018-05-05 08:14:59  INFO TestServiceRunnable:325 - 111111113vsRobotTravel-test-2 game over
+2018-05-05 08:14:59  INFO TestServiceRunnable:332 - 111111113vsRobotTravel-test-2 result save done!
+2018-05-05 08:14:59  INFO TestServiceRunnable:337 - 111111113vsRobotTravel-test-2 record save done!
+2018-05-05 08:49:19  INFO TestServiceRunnable:60 - 111111113vsRobotTravel-test-0 begin!
+2018-05-05 08:49:19  INFO TestServiceRunnable:70 - 111111113vsRobotTravel-test-0 round 0 start
+2018-05-05 08:49:19  INFO TestServiceRunnable:281 - 111111113vsRobotTravel-test-0 round 0 end
+2018-05-05 08:49:19  INFO TestServiceRunnable:70 - 111111113vsRobotTravel-test-0 round 1 start
+2018-05-05 08:49:21  INFO TestServiceRunnable:281 - 111111113vsRobotTravel-test-0 round 1 end
+2018-05-05 08:49:21  INFO TestServiceRunnable:70 - 111111113vsRobotTravel-test-0 round 2 start
+2018-05-05 08:49:22  INFO TestServiceRunnable:281 - 111111113vsRobotTravel-test-0 round 2 end
+2018-05-05 08:49:22  INFO TestServiceRunnable:317 - 111111113vsRobotTravel-test-0 game over
+2018-05-05 08:49:22  INFO TestServiceRunnable:324 - 111111113vsRobotTravel-test-0 result save done!
+2018-05-05 08:49:22  INFO TestServiceRunnable:329 - 111111113vsRobotTravel-test-0 record save done!

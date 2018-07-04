@@ -19,7 +19,8 @@ private:
     std::string position;
 	bool asc_or_desc;
     bool flag;
-	int order;
+    int width_of_table;
+    int order;
 	int arrary[SIZE];
 	char *input;
 	File *f;
@@ -29,6 +30,8 @@ public:
 //	~SQL();
     std::string* str_to(std::string str);
 	bool result();
+    void print_line();
+    void readme();
     void print_tablelist();
 	void print_table();
 	void save_tablelist();
@@ -44,6 +47,7 @@ public:
 	void Update();
 	void Update_p();
 	void Select();
+    void Select_m(bool flag);
 	void Select_p();
 	void Select_d();
 	void Select_o();

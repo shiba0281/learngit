@@ -1,0 +1,123 @@
+2018-05-03 20:03:26  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:03:26  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:03:26  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:03:53  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:03:53  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 20:23:43  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:23:43  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:23:43  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:23:50  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:23:50  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 20:35:25  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:35:25  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:35:25  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:35:50  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:35:50  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 20:36:51  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:36:51  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:36:51  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:36:54  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:36:54  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 20:38:31  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:38:31  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:38:31  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:38:44  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:38:44  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 20:39:47  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:39:47  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:39:47  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:46:14  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:46:14  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:46:14  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:46:32  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:46:32  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 20:46:58  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:46:58  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:46:58  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:47:01  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:47:01  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 20:48:22  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 20:48:22  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 20:48:22  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 20:48:24  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 20:48:24  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 21:06:39  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 21:06:39  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 21:06:39  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 21:06:42  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 21:06:42  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 21:12:50  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 21:12:50  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 21:12:50  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 21:12:50  INFO CreateServiceRunnable:399 - Accepted 111111110
+2018-05-03 21:12:50  INFO CreateServiceRunnable:413 - Welcome 111111110,aaa
+2018-05-03 21:16:33  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 21:16:33  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 21:16:33  INFO CreateServiceRunnable:108 - Start contest mode!
+2018-05-03 21:16:33  INFO CreateServiceRunnable:118 - The number of registered players: 0
+2018-05-03 21:16:36  INFO CreateServiceRunnable:202 - Accepted 111111110
+2018-05-03 21:16:36  INFO CreateServiceRunnable:219 - Welcome 111111110,aaa
+2018-05-03 21:16:36  INFO CreateServiceRunnable:118 - The number of registered players: 1
+2018-05-03 21:16:49  INFO CreateServiceRunnable:202 - Accepted 111111111
+2018-05-03 21:16:49  INFO CreateServiceRunnable:219 - Welcome 111111111,bbb
+2018-05-03 21:16:49  INFO CreateServiceRunnable:118 - The number of registered players: 2
+2018-05-03 21:16:59  INFO CreateServiceRunnable:202 - Accepted 111111112
+2018-05-03 21:16:59  INFO CreateServiceRunnable:219 - Welcome 111111112,bbb
+2018-05-03 21:16:59  INFO CreateServiceRunnable:118 - The number of registered players: 3
+2018-05-03 21:17:10  INFO CreateServiceRunnable:202 - Accepted 111111113
+2018-05-03 21:17:10  INFO CreateServiceRunnable:219 - Welcome 111111113,bbb
+2018-05-03 21:17:10  INFO CreateServiceRunnable:118 - The number of registered players: 4
+2018-05-03 21:17:21  INFO CreateServiceRunnable:202 - Accepted 111111115
+2018-05-03 21:17:21  INFO CreateServiceRunnable:245 - Not in Player List: 111111115
+2018-05-03 21:18:04  INFO CreateServiceRunnable:202 - Accepted 111111114
+2018-05-03 21:18:04  INFO CreateServiceRunnable:219 - Welcome 111111114,bbb
+2018-05-03 21:18:04  INFO CreateServiceRunnable:281 - The number of registered players: 5
+2018-05-03 21:18:04  INFO CreateServiceRunnable:304 - The passed player in contest: 111111112
+2018-05-03 21:18:04  INFO CreateServiceRunnable:306 - Contest start!
+2018-05-03 21:18:58  INFO CreateServiceRunnable:43 - Update CreateServiceRunnable!
+2018-05-03 21:18:58  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 21:18:58  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 21:18:58  INFO CreateServiceRunnable:108 - Start contest mode!
+2018-05-03 21:18:58  INFO CreateServiceRunnable:118 - The number of registered players: 0
+2018-05-03 21:19:35  INFO CreateServiceRunnable:202 - Accepted 111111112
+2018-05-03 21:19:35  INFO CreateServiceRunnable:219 - Welcome 111111112,bbb
+2018-05-03 21:19:35  INFO CreateServiceRunnable:118 - The number of registered players: 1
+2018-05-03 21:19:45  INFO CreateServiceRunnable:202 - Accepted 111111111
+2018-05-03 21:19:45  INFO CreateServiceRunnable:219 - Welcome 111111111,bbb
+2018-05-03 21:19:45  INFO CreateServiceRunnable:118 - The number of registered players: 2
+2018-05-03 21:19:56  INFO CreateServiceRunnable:202 - Accepted 111111114
+2018-05-03 21:19:56  INFO CreateServiceRunnable:219 - Welcome 111111114,bbb
+2018-05-03 21:19:56  INFO CreateServiceRunnable:281 - The number of registered players: 3
+2018-05-03 21:19:56  INFO CreateServiceRunnable:304 - The passed player in contest: 111111114
+2018-05-03 21:19:56  INFO CreateServiceRunnable:306 - Contest start!
+2018-05-03 21:42:37  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 21:42:37  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 21:42:37  INFO CreateServiceRunnable:108 - Start contest mode!
+2018-05-03 21:42:37  INFO CreateServiceRunnable:118 - The number of registered players: 0
+2018-05-03 21:42:43  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 21:42:43  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 21:42:43  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 21:42:50  INFO CreateServiceRunnable:399 - Accepted 111111112
+2018-05-03 21:42:50  INFO CreateServiceRunnable:413 - Welcome 111111112,bbb
+2018-05-03 21:43:08  INFO CreateServiceRunnable:399 - Accepted 111111113
+2018-05-03 21:43:08  INFO CreateServiceRunnable:413 - Welcome 111111113,ccc
+2018-05-03 21:43:17  INFO CreateServiceRunnable:399 - Accepted 111111114
+2018-05-03 21:43:17  INFO CreateServiceRunnable:413 - Welcome 111111114,aaa
+2018-05-03 22:08:37  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 22:08:37  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 22:08:37  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 22:08:44  INFO CreateServiceRunnable:399 - Accepted 111111112
+2018-05-03 22:08:44  INFO CreateServiceRunnable:413 - Welcome 111111112,bbb
+2018-05-03 22:25:33  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 22:25:33  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 22:25:33  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 22:30:01  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 22:30:01  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 22:30:01  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 22:32:50  INFO CreateServiceRunnable:87 - CreateServiceRunnable initialization complete!
+2018-05-03 22:32:50  INFO CreateServiceRunnable:99 - CreateServiceRunnable is running...
+2018-05-03 22:32:50  INFO CreateServiceRunnable:338 - Start test mode!
+2018-05-03 22:33:15  INFO CreateServiceRunnable:399 - Accepted 111111112
+2018-05-03 22:33:15  INFO CreateServiceRunnable:413 - Welcome 111111112,bbb
+2018-05-03 22:33:24  INFO CreateServiceRunnable:399 - Accepted 111111113
+2018-05-03 22:33:24  INFO CreateServiceRunnable:413 - Welcome 111111113,ccc

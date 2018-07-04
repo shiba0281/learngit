@@ -1,0 +1,90 @@
+2018-04-19 16:06:04  INFO TestServiceRunnable:60 - 111111111vsRobotTravel-test-0 begin!
+2018-04-19 16:06:04  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 0 start
+2018-04-19 16:06:05  INFO TestServiceRunnable:248 - 111111111vsRobotTravel-test-0 round 0 end
+2018-04-19 16:06:05  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 1 start
+2018-04-19 16:06:10 ERROR TestServiceRunnable:392 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:06:10 ERROR TestServiceRunnable:393 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receive BLACK step: 1 time!
+2018-04-19 16:06:15 ERROR TestServiceRunnable:401 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:06:15 ERROR TestServiceRunnable:402 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 2 time!
+2018-04-19 16:06:20 ERROR TestServiceRunnable:401 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:06:20 ERROR TestServiceRunnable:402 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 3 time!
+2018-04-19 16:06:25 ERROR TestServiceRunnable:401 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:06:25 ERROR TestServiceRunnable:402 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 4 time!
+2018-04-19 16:06:25  INFO TestServiceRunnable:248 - 111111111vsRobotTravel-test-0 round 1 end
+2018-04-19 16:06:25  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 2 start
+2018-04-19 16:06:25  INFO TestServiceRunnable:248 - 111111111vsRobotTravel-test-0 round 2 end
+2018-04-19 16:06:25  INFO TestServiceRunnable:284 - 111111111vsRobotTravel-test-0 game over
+2018-04-19 16:06:25  INFO TestServiceRunnable:291 - 111111111vsRobotTravel-test-0 result save done!
+2018-04-19 16:06:25  INFO TestServiceRunnable:296 - 111111111vsRobotTravel-test-0 record save done!
+2018-04-19 16:13:08  INFO TestServiceRunnable:60 - 111111111vsRobotTravel-test-0 begin!
+2018-04-19 16:13:08  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 0 start
+2018-04-19 16:13:08  INFO TestServiceRunnable:249 - 111111111vsRobotTravel-test-0 round 0 end
+2018-04-19 16:13:08  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 1 start
+2018-04-19 16:13:13 ERROR TestServiceRunnable:393 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:13:13 ERROR TestServiceRunnable:394 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receive BLACK step: 1 time!
+2018-04-19 16:13:18 ERROR TestServiceRunnable:402 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:13:18 ERROR TestServiceRunnable:403 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 2 time!
+2018-04-19 16:13:23 ERROR TestServiceRunnable:402 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:13:23 ERROR TestServiceRunnable:403 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 3 time!
+2018-04-19 16:13:28 ERROR TestServiceRunnable:402 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:13:28 ERROR TestServiceRunnable:403 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 4 time!
+2018-04-19 16:13:28  INFO TestServiceRunnable:249 - 111111111vsRobotTravel-test-0 round 1 end
+2018-04-19 16:13:28  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 2 start
+2018-04-19 16:13:28  INFO TestServiceRunnable:249 - 111111111vsRobotTravel-test-0 round 2 end
+2018-04-19 16:13:28  INFO TestServiceRunnable:285 - 111111111vsRobotTravel-test-0 game over
+2018-04-19 16:13:28  INFO TestServiceRunnable:292 - 111111111vsRobotTravel-test-0 result save done!
+2018-04-19 16:13:28  INFO TestServiceRunnable:297 - 111111111vsRobotTravel-test-0 record save done!
+2018-04-19 16:25:38  INFO TestServiceRunnable:60 - 111111111vsRobotTravel-test-0 begin!
+2018-04-19 16:25:38  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 0 start
+2018-04-19 16:25:39  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 0 end
+2018-04-19 16:25:39  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 1 start
+2018-04-19 16:25:44 ERROR TestServiceRunnable:395 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:25:44 ERROR TestServiceRunnable:396 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receive BLACK step: 1 time!
+2018-04-19 16:25:49 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:25:49 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 2 time!
+2018-04-19 16:25:54 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:25:54 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 3 time!
+2018-04-19 16:25:59 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:25:59 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 4 time!
+2018-04-19 16:25:59  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 1 end
+2018-04-19 16:25:59  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 2 start
+2018-04-19 16:26:00  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 2 end
+2018-04-19 16:26:00  INFO TestServiceRunnable:287 - 111111111vsRobotTravel-test-0 game over
+2018-04-19 16:26:00  INFO TestServiceRunnable:294 - 111111111vsRobotTravel-test-0 result save done!
+2018-04-19 16:26:00  INFO TestServiceRunnable:299 - 111111111vsRobotTravel-test-0 record save done!
+2018-04-19 16:40:17  INFO TestServiceRunnable:60 - 111111111vsRobotTravel-test-0 begin!
+2018-04-19 16:40:17  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 0 start
+2018-04-19 16:40:18  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 0 end
+2018-04-19 16:40:18  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 1 start
+2018-04-19 16:40:23 ERROR TestServiceRunnable:395 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:40:23 ERROR TestServiceRunnable:396 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receive BLACK step: 1 time!
+2018-04-19 16:40:28 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:40:28 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 2 time!
+2018-04-19 16:40:33 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:40:33 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 3 time!
+2018-04-19 16:40:38 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:40:38 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 4 time!
+2018-04-19 16:40:38  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 1 end
+2018-04-19 16:40:38  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 2 start
+2018-04-19 16:40:38  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 2 end
+2018-04-19 16:40:38  INFO TestServiceRunnable:287 - 111111111vsRobotTravel-test-0 game over
+2018-04-19 16:40:38  INFO TestServiceRunnable:294 - 111111111vsRobotTravel-test-0 result save done!
+2018-04-19 16:40:38  INFO TestServiceRunnable:299 - 111111111vsRobotTravel-test-0 record save done!
+2018-04-19 16:41:37  INFO TestServiceRunnable:60 - 111111111vsRobotTravel-test-0 begin!
+2018-04-19 16:41:37  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 0 start
+2018-04-19 16:41:37  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 0 end
+2018-04-19 16:41:37  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 1 start
+2018-04-19 16:41:42 ERROR TestServiceRunnable:395 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:41:42 ERROR TestServiceRunnable:396 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receive BLACK step: 1 time!
+2018-04-19 16:41:47 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:41:47 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 2 time!
+2018-04-19 16:41:52 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:41:52 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 3 time!
+2018-04-19 16:41:57 ERROR TestServiceRunnable:404 - java.net.SocketTimeoutException: Read timed out
+2018-04-19 16:41:57 ERROR TestServiceRunnable:405 - 111111111vsRobotTravel-test-0 ROUND 1 TimeoutException when receiveBLACKstep: 4 time!
+2018-04-19 16:41:57  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 1 end
+2018-04-19 16:41:57  INFO TestServiceRunnable:70 - 111111111vsRobotTravel-test-0 round 2 start
+2018-04-19 16:41:58  INFO TestServiceRunnable:251 - 111111111vsRobotTravel-test-0 round 2 end
+2018-04-19 16:41:58  INFO TestServiceRunnable:287 - 111111111vsRobotTravel-test-0 game over
+2018-04-19 16:41:58  INFO TestServiceRunnable:294 - 111111111vsRobotTravel-test-0 result save done!
+2018-04-19 16:41:58  INFO TestServiceRunnable:299 - 111111111vsRobotTravel-test-0 record save done!

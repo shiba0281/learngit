@@ -22,7 +22,9 @@ void File::input_tablelist(vector<string*>&tablelist){
 	char tablename[SIZE] = { '\0' };
 	char filename[SIZE] = { '\0' };
 	fscanf(fp, "%s", tablename);
+    if(!feof(fp)){
 	fscanf(fp, "%s", filename);
+    }
 //	fgetc(fp);
 //	string *s = new string[2];
 	while (!feof(fp)){

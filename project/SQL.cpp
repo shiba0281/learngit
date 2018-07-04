@@ -2,6 +2,7 @@
 #include "IO.h"
 #include "File.h"
 #include<iostream>
+#include<fstream>
 #include<iomanip>
 using namespace std;
 SQL::SQL(char *input){
@@ -42,6 +43,9 @@ SQL::SQL(char *input){
 		f = new File((char*)filename.c_str(), (char*)"r");
         if(f->result()){
             f->input_table(table);
+            width_of_table=0;
+            while(table[0][width_of_table++]!=" ");
+            width_of_table--;
         }
         else{
             flag=false;
@@ -106,16 +110,22 @@ void SQL::CreateToFile(){
 	tablelist.push_back(s);
 	save_tablelist();
 	table.push_back(str_to(volumns));
+    width_of_table=0;
+    string *tmp=str_to(volumns);
+    while(tmp[width_of_table++]!=" ");
+    width_of_table--;
 	print_table();
 	save_table();
 }
 void SQL::Drop(){
 	bool flag = false;
-	for (vector<string*>::iterator it = tablelist.begin(); it != tablelist.end(); it++){
+    auto it=tablelist.begin();
+	for (; it != tablelist.end(); it++){
 		if (**it == tablename){
 			flag = true;
 			delete[] *it;
 			it=tablelist.erase(it);
+            if(it==tablelist.end()){break;}
 			if (it != tablelist.begin()){ it--; }
 		}
 	}
@@ -250,10 +260,10 @@ void SQL::Select(){
 	print_table();
 }
 void SQL::Select_p(){
+    int flag[SIZE]={0};
+    int cnt=0;
 	string *s = str_to(volumns);
 	//	确定需要输出的列的编号
-	int flag[SIZE] = { 0 };
-	int cnt = 0;
 	for (int i = 0; table[0][i] != " "; i++){
 		for (int j = 0; s[j] != " "; j++){
 			if (table[0][i] == s[j]){
@@ -262,6 +272,14 @@ void SQL::Select_p(){
 			}
 		}
 	}
+    int tmp=0;
+    while(s[tmp++]!=" ");
+    if(--tmp!=cnt){
+        cout<<"=========================="<<endl
+            <<"输入的列在TABLE不完全存在!"<<endl
+            <<"=========================="<<endl;
+        return;
+    }
 	//	输出编号的特征数组里的列
 	cout << "ID" << '\t';
 	for (int i = 0; i < (int)table.size(); i++){
@@ -289,6 +307,7 @@ void SQL::Update_p(){
 	//	修改这一行的值
 	string *sc = str_to(volumns);
 	string *sv = str_to(values);
+
 	for (int i = 0; sc[i] != " "; i++){
 		for (int k = 0; table[0][k] != " "; k++){
 			if (table[0][k] == sc[i]){
@@ -296,6 +315,15 @@ void SQL::Update_p(){
 			}
 		}
 	}
+/*
+    for(int i=0;table[0][i]!=" ";i++){
+        for(int k=0;sc[k]!=" ";k++){
+            if(table[0][i]==sc[k]){
+                table[j][i]=sv[k];
+            }
+        }
+    }
+    */
 	save_table();
 }
 void SQL::Select_d(){
@@ -313,6 +341,14 @@ void SQL::Select_d(){
 			}
 		}
 	}
+    int tmp=0;
+    while(s[tmp++]!=" ");
+    if(--tmp!=cnt){
+        cout<<"============================"<<endl
+            <<"输入的列在TABLE中不完全存在!"<<endl
+            <<"============================"<<endl;
+        return;
+    }
 	int amount = 0;
 	//	遍历所有行，找出需要没有重复内容的行标记
 	for (int i = 0; i < (int)table.size(); i++){
@@ -368,7 +404,27 @@ void SQL::Select_o(){
 			}
 		}
 	}
-	print_table();
+//	print_table();
+    if(values=="*"){print_table();}
+    else{
+        string *sv=str_to(values);
+        int tmp[SIZE];
+        int cnt=0;
+        for(int i=0;table[0][i]!=" ";i++){
+            for(int j=0;sv[j]!=" ";j++){
+                if(table[0][i]==sv[j]){
+                    tmp[cnt++]=i;
+                }
+            }
+        }
+        cout<<cnt<<endl;
+        for(int i=0;i<(int)table.size();i++){
+            for(int j=0;j<cnt;j++){
+                cout<<table[i][tmp[j]]<<'\t';
+            }
+            cout<<endl;
+        }
+    }
 }
 bool SQL::cmp(string *a,string *b){
 	for (int i = 0; arrary[i] != -1; i++){
@@ -401,7 +457,10 @@ void SQL::Select_t(){
 			i--;
 		}
 	}
-	print_table();
+	width_of_table=0;
+    while(table[0][width_of_table++]!=" ");
+    width_of_table--;
+    print_table();
 	f = new File((char*)objectname.c_str(), (char*)"w");
 	f->output_table(table);
 	delete f;
@@ -413,39 +472,43 @@ void SQL::Select_pp(){
 	string s[2];
     //  寻找关键字
     string key;
-    if(position.find('=')!=string::npos){
-        key="=";
-    }
-    else if(position.find('>')!=string::npos){
-        key=">";
-    }
-    else if(position.find('<')!=string::npos){
-        key="<";
-    }
-    else if(position.find("!=")!=string::npos){
+    if(position.find("!=")!=string::npos){
         key="!=";
-    }
-    else if(position.find("<=")!=string::npos){
-        key="<=";
     }
     else if(position.find(">=")!=string::npos){
         key=">=";
     }
+    else if(position.find("<=")!=string::npos){
+        key="<=";
+    }
+    else if(position.find('=')!=string::npos){
+        key="=";
+    }
+    else if(position.find('<')!=string::npos){
+        key="<";
+    }
+    else if(position.find('>')!=string::npos){
+        key=">";
+    }
 	s[0] = position.substr(0, position.find_first_of(key) - 1);
 	s[1] = position.substr(position.find_first_of(key) + key.size()+1);
-	string *sc = str_to(volumns);
+       string *sc = str_to(volumns);
 	//	存储标记列
 	int cnt = 0;
 	int a = 0;
 	for (int i = 0; table[0][i] != " "; i++){
-		for (int j = 0; sc[j] != " "; j++){
-			if (table[0][i] == sc[j]){
+        if(table[0][i]==s[0]){
+            a=i;
+        }
+        if(volumns=="*"){
+            arrary[cnt++]=i;
+            continue;
+        }
+        for (int j = 0; sc[j] != " "; j++){
+            if (table[0][i] == sc[j]){
 				arrary[cnt++] = i;
 				break;
 			}
-		}
-		if (table[0][i] == s[0]){
-			a = i;
 		}
 	}
 	//	寻找指定行
@@ -516,6 +579,67 @@ void SQL::Select_pp(){
 		cout << endl;
 	}	
 }
+void SQL::readme(){
+    ifstream in;
+    in.open("README.txt",ios::in);
+    if(!in){
+        cout<<"==================="<<endl
+            <<"打开README.txt失败!"<<endl
+            <<"==================="<<endl;
+        return;
+    }
+    char tmp[SIZE];
+    in.getline(tmp,SIZE);
+    cout<<"-----------------指令集------------------"<<endl;
+    while(!in.eof()){
+        cout<<tmp<<endl;
+        in.getline(tmp,SIZE);
+    }
+    in.close();
+    cout<<"========================================="<<endl;
+}
+void SQL::print_line(){
+    for(int i=0;i<width_of_table*11;i++){cout<<'-';}
+    cout<<endl;
+}
+void SQL::Select_m(bool flag){
+    int column=0;
+    for(;table[0][column]!=" ";column++){
+        if(table[0][column]==volumns){
+            break;
+        }
+    }
+    if(table[0][column]==" "){
+        cout<<"============="<<endl
+            <<"未找到指定列!"<<endl
+            <<"============="<<endl;
+        return;
+    }
+    int max_id=1;
+    for(int i=1;i<(int)table.size();i++){
+        int tmp=stoi(table[i][column]);
+        if(tmp>max_id&&flag){
+            max_id=i;
+        }
+        else if(tmp<max_id&&!flag){
+            max_id=i;
+        }
+    }
+    print_line();
+    cout<<'|';
+    for(int i=0;table[0][i]!=" ";i++){
+        cout<<setw(10)<<table[0][i]<<'|';
+    }
+    cout<<endl;
+    print_line();
+    cout<<'|';
+    for(int i=0;table[max_id][i]!=" ";i++){
+        cout<<setw(10)<<table[max_id][i]<<'|';
+    }
+    cout<<endl;
+    print_line();
+}
+
 void SQL::Order(){
 	switch (order){
 	case 0:
@@ -563,7 +687,16 @@ void SQL::Order(){
 	case 15:
 		Select_p();
 		break;
-	case 14:
+    case 16:
+        Select_m(true);
+        break;
+    case 17:
+        Select_m(false);
+        break;
+    case 18:
+        readme();
+        break;
+    case 14:
 		Select();
 		break;
 	default:
@@ -574,9 +707,20 @@ void SQL::Order(){
 	if (order >= 4&&order<=9&&flag){ print_table(); }
 }
 void SQL::print_table(){
+    int *a=new int[width_of_table];
+    for(int i=0;i<width_of_table;i++){
+        a[i]=0;
+        for(int j=0;j<(int)table.size();j++){
+            if((int)table[j][i].size()>a[i]){
+                a[i]=(int)table[j][i].size();
+            }
+        }
+    }
     int len=0;
-    while(table[0][len++]!=" ");
-    len=4+(len-1)*11;
+    for(int i=0;i<width_of_table;i++){
+        len+=a[i];
+    }
+    len+=width_of_table*2;
     for(int i=0;i<len;i++){cout<<"-";}
     cout<<endl;
 	cout<<'|'<<setw(3)<<"ID"<<'|';
@@ -589,10 +733,10 @@ void SQL::print_table(){
 		for (int j = 0; table[i][j] != " "; j++){
 //			cout<<"|  ";
             if (table[i][j] == "#"){
-				cout<<setw(10) << " ";
+				cout<<setw(a[j]) << " ";
 			}
 			else{
-				cout<<setw(10) << table[i][j];
+				cout<<setw(a[j]) << table[i][j];
 			}
             cout<<'|';
 		}

@@ -1,4 +1,2 @@
-lecture	lecture.txt
+xuanke	xuanke.txt
 student	student.txt
-Student	Student.txt
-	
